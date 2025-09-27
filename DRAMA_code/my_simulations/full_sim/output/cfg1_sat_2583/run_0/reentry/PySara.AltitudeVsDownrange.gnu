@@ -1,0 +1,200 @@
+reset
+set datafile separator whitespace
+set term png size 960,480
+
+set o 'PySara.AltitudeVsDownrange.png'
+set size 1,1 
+set origin 0,0
+set grid
+
+set key font ",7"
+set key below 
+set title 'Altitude vs Downrange of all Objects'noenhanced font ",14"
+set xlabel 'Downrange [km]' font ",14"
+set ylabel 'Altitude [km]' font ",14"
+set tics font ",14"
+set style line 1 lc rgb 'blue' pt 1 ps 3
+
+plot \
+'PySara.Compound_of-IFring-PLM-SVM-SolarP.4181261518065174452_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Compound_of-IFring-PLM-SVM.1774137722065935883_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RSJD.d937ad92-d03c-481d-8392-3f22b0e7d086_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EIU.de163939-c203-4c8e-9849-f04d653048fa_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RWheel1.af70ced4-28ee-4d3a-9d58-1b24a8dc3738_Trajectory.txt' using 6:2 w l lw 3 title 'RWheel1' noenhanced, \
+'PySara.RWheel2.603cb97a-ab55-4f3c-805b-294cd708aec8_Trajectory.txt' using 6:2 w l lw 3 title 'RWheel2' noenhanced, \
+'PySara.RWheel3.de9cc12c-5eb4-470b-95a6-7590d2d37d90_Trajectory.txt' using 6:2 w l lw 3 title 'RWheel3' noenhanced, \
+'PySara.SADME.8140b255-48fc-423e-ad9f-f730c48a160b_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.MAC-Y.b8bb99f6-587d-443b-a4d9-d5fc64301d94_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.CCU.7748539e-591c-4400-9cc9-9ec1036fb9e3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BSP.6bbe79a5-0f24-4ab3-a2fb-15baef655496_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.OBA.1639538e-29da-4716-9d3c-53b7b487923a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EDR.9a311fa3-eaf6-4892-9222-ba5f054d70f3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EPRM.dee53926-7642-466e-802b-b9744ba8cdb5_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.TRSP1.5f45191c-7290-4b84-8438-a6efa24cfd98_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.TRSP2.fe12b5b4-e0cb-4783-a96b-165cb7d5f58d_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG1.e35eed7f-ef13-414e-931e-da5bd7aff9d0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG2.affcab05-139a-442a-8b0a-ec193dead5bf_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG3.c1252870-a411-47c8-95a1-dbe40cce3180_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG4.1407897e-78f2-4365-9835-6364215ae2b7_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Gyrosbl.f9183c5e-96ee-4081-a9b7-a5be65c3a93b_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.T4S.97fcac61-844e-4acc-9ea6-1c12a219162e_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EAIM.3b71e707-35dd-4ca9-b649-37d51d847ecf_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.STD1.2d651b05-1869-4d9c-aa83-1b971d671ddc_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.STD2.9e878564-4208-4e86-ad05-fc711c4160c8_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SSD1.697fe3b8-09dc-4c4f-8ee6-7e0d02a57ae9_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SSD2.b2e7dabd-09fd-4a1b-88e7-b1ae042c39b0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SADM1.5b7fd01c-6f9b-4cbb-b4c4-96dce1078b32_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SADM2.5201153f-409f-43e2-abae-d0dee08085a2_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp1.ec6c3d7b-2c0b-4e0f-8ff5-5f6115948756_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp2.0ddd261b-7212-4d16-bd67-ce000a079ba8_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp3.896964bd-06c8-4dfd-919f-ff3bca91b6c6_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp4.d7975ff0-7ac3-4132-b032-aa1f494ea71b_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp5.75259d18-273c-4f7e-b113-6a07d4bd046e_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp6.8c0b4342-3694-42fa-bb54-b28ece1c6b1b_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp7.b1391c69-9c1b-4b55-bfd5-632fcd01a456_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp8.fc852873-927a-4f88-8ea9-26fed43cae6b_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp9.6be30e75-18cc-47c2-aee6-5f20c3221737_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp10.34a3e613-ab72-44dc-8586-ba494dad4172_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp11.b50f4c9b-b8ac-456a-b304-63acab4dc1cd_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAsupp12.c8f518b4-db4d-4961-846d-ec4fb720aab4_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.CentCone.dbe0cea8-a0d5-4d89-8517-e1de3fc8b8fd_Trajectory.txt' using 6:2 w l lw 3 title 'CentCone' noenhanced, \
+'PySara.Ribpanel1.7f2a6dfb-54f8-4dcb-8368-6194b7df99ea_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Ribpanel2.8dd18595-7d63-4c7b-be1d-893cb08a289d_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Ribpanel3.4637824e-af1f-4f16-81fe-e13fd3fe29d8_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Ribpanel4.e829d70b-6a3a-4749-ab45-d542dd05964b_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Ribpanel5.a9a97325-9930-4a15-bcb7-d35ddc54f136_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BatFloor.5979b336-f02c-480c-bbb6-e169a31f7ca8_Trajectory.txt' using 6:2 w l lw 3 title 'BatFloor' noenhanced, \
+'PySara.IntRing.cc199b51-7819-40d2-8506-d81fcfc2313d_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PropStr.4537caf3-ad08-4616-8288-301a3a41d421_Trajectory.txt' using 6:2 w l lw 3 title 'PropStr' noenhanced, \
+'PySara.Tank1.9729fdb9-64f6-4292-87cc-5e16c1f9a611_Trajectory.txt' using 6:2 w l lw 3 title 'Tank1' noenhanced, \
+'PySara.Tank2.30baa5e5-7052-4ea7-ab1b-39a602f2952e_Trajectory.txt' using 6:2 w l lw 3 title 'Tank2' noenhanced, \
+'PySara.Tank3.fa9558ee-ae76-48d8-82e6-cde76fd02986_Trajectory.txt' using 6:2 w l lw 3 title 'Tank3' noenhanced, \
+'PySara.Tank4.412fae6e-e434-49a2-87f5-48289ceabd9b_Trajectory.txt' using 6:2 w l lw 3 title 'Tank4' noenhanced, \
+'PySara.ValvTran1.8908b1bc-115a-431c-a614-4f92e53da761_Trajectory.txt' using 6:2 w l lw 3 title 'ValvTran1' noenhanced, \
+'PySara.ValvTran2.c06c2500-a2e8-428d-8358-3840e7ecc178_Trajectory.txt' using 6:2 w l lw 3 title 'ValvTran2' noenhanced, \
+'PySara.ValvTran3.ea4741ff-100d-4762-86d1-96ff23cbd580_Trajectory.txt' using 6:2 w l lw 3 title 'ValvTran3' noenhanced, \
+'PySara.ValvTran4.a6ecdded-1cb6-4f8e-8082-c511d4155286_Trajectory.txt' using 6:2 w l lw 3 title 'ValvTran4' noenhanced, \
+'PySara.ValvTran5.13d8ee2c-01e2-4ab1-9e89-340e96614479_Trajectory.txt' using 6:2 w l lw 3 title 'ValvTran5' noenhanced, \
+'PySara.ValvTran6.144ee139-a532-44f7-9291-b67a552d6be8_Trajectory.txt' using 6:2 w l lw 3 title 'ValvTran6' noenhanced, \
+'PySara.Battery1.b731e1c5-a432-4435-aa99-04119a660a18_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery2.80a2fb28-bc6e-4799-be4b-8d3040131be0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery3.5d8e095f-d464-428d-89f6-5d85ce0f2c51_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery4.76656e3e-2c2e-4ef5-979c-3b02b44161f3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery5.be8502f9-6a4b-46ba-b664-dc7d82b03c4c_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Compound_of-IFring-PLM.17348449967641550401_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RSJD-Internal.d1e5a0de-9083-45b1-9d5d-7f3ffe63e668_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EIU-Internal.dcdfbb93-1438-4769-ba96-d991c3a76171_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SADME-internal.c5d55eb6-0c99-4255-b135-eb29e2d3533a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.CCU-internal.e9ac6dd3-1e30-4e13-a931-88ec30d045b3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BSP-internal.445d15cb-e66c-47ae-a9c0-b29e1e0810bb_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EDR-internal.33042274-6bb2-4c16-a86e-865ac32f7092_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EPRM-internal.58f457b5-8a3d-4ccc-b511-c34804fc1bf9_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG1-internal.7eb7ab52-bef4-4e3c-a3a7-27a88e2a9e67_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG2-internal.e9b72efb-391d-488f-8bc6-9e68f868da0c_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG3-internal.f37d4ac3-4d25-412d-ba98-2978ea639983_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.BEG4-internal.c688eee3-a8e2-44a2-9566-f079885f2eb6_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.T4S-internal.a69fb443-96eb-4abe-ac15-046b80a4bd92_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EAIM-internal.0016c647-94b6-44b3-924b-c232a84934b2_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SADM1_internal.3f0d36b8-546a-4647-b4ff-c64d71f59c39_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SADM2-internal.875dc2f0-da7f-4fb0-bc9b-f2ce128ec2a3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery1-Internal.2d29c4c5-7f95-4af3-bc4b-011beb682baf_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery2-Internal.5d9f155a-ded8-4360-9010-eceeee887bb0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery3-Internal.2699bb25-a994-4ccf-b910-2a7157b33ccf_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery4-Internal.4ac673c9-d31d-46a2-a9db-646ddc250e15_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.Battery5-Internal.f5dffc0d-a926-4634-a33f-cbf5f72a8df5_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PLM.bdeb6a36-12d0-4fe9-bdef-1f6faab885a0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.MHS-MPU.1d92482f-0fca-4932-9a63-40c4d90fb4b3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.MHS-DBU.af9ae746-0675-4333-8b05-8e932cd4c1b0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATEPC1.ff76ff82-3840-4368-baea-8470e11c3029_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATEPC2.e7625e32-79e6-4f4b-9ef6-c035d7bed5a3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATSSP1.fb31e106-f9ad-4645-9720-14c0d0e3a751_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATSSP2.c2e0d534-5cf7-4d10-b474-35f877d759b7_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATHRS.870bfb5a-8fc8-444b-9998-708e0c330e1c_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PMC1.d0ee71ee-faa1-4c64-a562-a3738a93e4ad_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PMC2.f8ada8b9-06d4-40cd-bd74-3312fce12e78_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PDU1.74ad233a-a069-427e-8467-3e6a119838ac_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PDU2.abfb6e52-d8cf-4641-a0b0-5e40edc0f564_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RFCU1.613ab40d-ac65-453f-a803-80da09b61542_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RFCU2.c2653f19-0f7a-44ac-a8e5-1d0bb26d33a0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RFCU3.23763bdd-7c0b-4077-80ac-d6a189fb2c79_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RFCU4.ef6582af-e11d-4ca9-a12b-3ec47549d18c_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RFCU5.aef6318c-2d97-40ba-8bdf-068bc94bd8a5_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RTU.4b32fec7-9f57-4649-8284-3d1fdfc20d90_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SLAFilt.a1a24d98-f827-46ce-aff0-7b2d6e8e2357_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SARP-3.0cd08834-81c1-4576-8c86-fa265f3a8f04_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SAR-Rx.a8231a79-5579-4e40-8d4f-71b9a74ab3d7_Trajectory.txt' using 6:2 w l lw 3 title 'SAR-Rx' noenhanced, \
+'PySara.SAR-Tx.aeda7892-1a0d-473d-938b-47f3689d7448_Trajectory.txt' using 6:2 w l lw 3 title 'SAR-Tx' noenhanced, \
+'PySara.EPC1.14c3fb57-5e6f-4161-b4d0-16a4765fc55b_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.EPC2.b80a76e3-0da9-42c5-953a-ff2614be710e_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.MOD1.c7c6fa2c-f04e-421e-9252-6fb3260cfa54_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.MOD2.f5312407-e791-4f4d-a167-74a567287a2c_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.TWT1.8e56ba6f-8a93-4617-a814-e9974363ade4_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.TWT2.b5ed6971-cc08-4353-9268-62ab81f38d58_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SRADipl.1f2a4ef6-0ab3-4d25-a4be-d8e9c1642037_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.LNA1.9df1f91d-0492-4871-8bb7-f884e4fef4a3_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.LNA2.8af2132f-250d-477b-80f7-615e5d67d2a0_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.UDAFilt.69188486-6c6d-417e-a056-336b38e4b918_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.DBU1.b8b303d2-e3bb-4d85-8dc1-a7fdc76026fb_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.DBU2.c7768e71-50e7-47a0-a4c4-6b535ac78276_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.DBU3.b3b63815-7b7d-4113-81f6-cf863040232a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.DBU4.4617ce0b-186b-43d4-b84c-1fb1a32f893a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.DBU5.4ab4cfaa-2a04-4c16-80d0-43adefb563f2_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATRFU1.b29cc33f-19ef-48ef-a94d-d57e19b97bb3_Trajectory.txt' using 6:2 w l lw 3 title 'ASCATRFU1' noenhanced, \
+'PySara.ASCATRFU2.f782f6c0-7963-417e-80c3-16d9fcda0a37_Trajectory.txt' using 6:2 w l lw 3 title 'ASCATRFU2' noenhanced, \
+'PySara.IASI-DPS.bbf22be4-2b2e-485c-afb6-40ee990bc60c_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.RFCU.f75aa4b9-a2e4-4d7a-8317-7397c96c9e31_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.IASI-IMS.2820083a-a07a-4a45-8a91-ae1aeb026ab8_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.DPU-SEM.2a0f1756-d739-4be5-acfb-5c98c1ec6d8a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PCU.40ced179-61ac-4157-b67b-e5818d785545_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.TCU.1fb5a24d-822d-4b03-b7c8-707b45f03a62_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.FMU1.94c7134b-e00b-4484-9ab5-793cf11a09b7_Trajectory.txt' using 6:2 w l lw 3 title 'FMU1' noenhanced, \
+'PySara.FMU2.033f7482-d229-4653-8df8-c3666d4d7b38_Trajectory.txt' using 6:2 w l lw 3 title 'FMU2' noenhanced, \
+'PySara.SSR.fbcc29ad-1536-4009-a797-ba57fa6a25ae_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.NIU.8b0371d9-fcd1-4ee4-8979-f4d5247cd70f_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.L-SSPA1.813c8c0b-733c-44d2-acd5-ccde788a753d_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.L-SSPA2.f4d5dd76-6520-4bb7-965d-4ba666dfb2a8_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.LH-MOD1.aaafc080-8726-4cd4-93b1-07ee067df443_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.LH-MOD2.2a0796a7-9f8b-4a83-bc81-8a78dd54760a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.H-SSPA1.d261c2b8-14c8-4ca4-8ca6-452b32cf73ce_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.H-SSPA2.9e0a805e-eac1-4103-891b-7ee76bc46231_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ADCS-RPU.6b158017-2221-41d5-91de-cdad33f7fe5c_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ADCS-TXU.7dd6bb48-d93d-49a2-af82-86768fa7cf69_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.GRAS-GEU.a4291dde-6a9e-492c-8841-36b2c33bf895_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATICU1.c45549b5-46ea-4348-a189-5decd51dbeb8_Trajectory.txt' using 6:2 w l lw 3 title 'ASCATICU1' noenhanced, \
+'PySara.ASCATICU2.03b61fef-8e3c-4ac8-9a6a-f31f845465d1_Trajectory.txt' using 6:2 w l lw 3 title 'ASCATICU2' noenhanced, \
+'PySara.ASCATDPU1.da9d6c91-6d62-4349-a53f-1129d18d391d_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATDPU2.9fb93baf-13b0-4ec7-8df1-da5d96a39ac6_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.IASI.2969ab64-09a9-4393-ac53-86b9074064be_Trajectory.txt' using 6:2 w l lw 3 title 'IASI' noenhanced, \
+'PySara.Cylind1.7e1b3419-b471-44e6-8e7c-169d125847ee_Trajectory.txt' using 6:2 w l lw 3 title 'Cylind1' noenhanced, \
+'PySara.Cylind2.8dcb8ef0-fe12-4766-9c27-6bc2e3f3855b_Trajectory.txt' using 6:2 w l lw 3 title 'Cylind2' noenhanced, \
+'PySara.SheWallY1.55fcf338-3461-468f-ae95-f36d48f25aae_Trajectory.txt' using 6:2 w l lw 3 title 'SheWallY1' noenhanced, \
+'PySara.SheWallY2.b60d0506-ecc9-4926-961e-24ec487e1e61_Trajectory.txt' using 6:2 w l lw 3 title 'SheWallY2' noenhanced, \
+'PySara.SheWallY3.4bff8081-9a95-4be6-9a40-52443d671247_Trajectory.txt' using 6:2 w l lw 3 title 'SheWallY3' noenhanced, \
+'PySara.SheWallY4.f8f8c63b-c1aa-46a7-b562-883465f2fdb5_Trajectory.txt' using 6:2 w l lw 3 title 'SheWallY4' noenhanced, \
+'PySara.SheWallZ1.e33ba8a5-64be-479d-97b6-eaea89d23437_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.SheWallZ2.0ba12395-99d3-44ee-8770-afa7248e60b4_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.MHS-MPU-internal.00250585-2152-4610-9ca3-8f17fb59ce5a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATEPC1-internal.e3c41722-dd46-4295-8a15-4214ae9596c4_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATEPC2-internal.170c51e7-5a72-41fb-ad75-9abcf426fe38_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PMC1-internal.27c8e907-c911-4baf-b922-cc31c73200c1_Trajectory.txt' using 6:2 w l lw 3 title 'PMC1-internal' noenhanced, \
+'PySara.PMC2-internal.510765ee-a809-486c-84c6-357ea3552e42_Trajectory.txt' using 6:2 w l lw 3 title 'PMC2-internal' noenhanced, \
+'PySara.PDU1-internal.8166906a-c383-40cb-aea9-6d118e82ea58_Trajectory.txt' using 6:2 w l lw 3 title 'PDU1-internal' noenhanced, \
+'PySara.PDU2-internal.7f5c3acb-06e7-447f-ab8b-621d492b9a50_Trajectory.txt' using 6:2 w l lw 3 title 'PDU2-internal' noenhanced, \
+'PySara.RTU-internal.54376ec5-78f5-4aef-96d1-7f1996a5900b_Trajectory.txt' using 6:2 w l lw 3 title 'RTU-internal' noenhanced, \
+'PySara.SARP-3-internal.55f2d300-0aa9-4bdd-81d9-e330bdc72385_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.IASI-DPS-internal.82a1c854-070b-4ecf-9c66-92206128e0db_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.IASI-IMS-internal.91faf1be-bea6-42bf-a5c5-61930dc177d5_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.DPU-SEM-internal.674e8f15-7ca9-49a9-880f-9964e4c6aa14_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.PCU-internal.adea4fd2-f7b0-40b2-898b-f1e31bdf9409_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.TCU-internal.c7944422-3058-4d7c-80ba-0abe6d0f7cbc_Trajectory.txt' using 6:2 w l lw 3 title 'TCU-internal' noenhanced, \
+'PySara.SSR-internal.63131438-4da3-40b8-84f2-f88252a1c3ca_Trajectory.txt' using 6:2 w l lw 3 title 'SSR-internal' noenhanced, \
+'PySara.NIU-internal.c988d9e3-614a-444d-9796-3923a809db8f_Trajectory.txt' using 6:2 w l lw 3 title 'NIU-internal' noenhanced, \
+'PySara.ADCS-RPU-internal.c676e466-0834-4c64-9021-e458c7acc91a_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ADCS-TXU-internal.290761d5-b96d-4122-aba7-205b2ed50866_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.GRAS-GEU-internal.46aa8e19-07c1-48bf-b6d2-ea51e79d4295_Trajectory.txt' using 6:2 w l lw 3 title 'GRAS-GEU-internal' noenhanced, \
+'PySara.ASCATDPU1-internal.1d295286-bbe4-43ee-893e-b44a0c5774ae_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.ASCATDPU2-internal.d2066ef8-9b80-4aa0-be8b-27fccd89022e_Trajectory.txt' using 6:2 w l lw 1 title '', \
+'PySara.demiseData.txt' using 6:2 w p ls 1 lw 3 title 'Demise points', \
+'PySara.ballooningData.txt' using 6:2 w p ls 2 lw 3 title 'Ballooning points', \
+'PySara.uncriticalData.txt' using 6:2 w p ls 4 lw 3 title 'Uncritical points', \
+ 

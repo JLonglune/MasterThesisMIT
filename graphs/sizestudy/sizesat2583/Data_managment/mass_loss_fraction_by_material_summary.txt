@@ -1,0 +1,244 @@
+Résumé par matériau
+========================================
+
+Matériau: drama-A316
+  Masse initiale totale : 57.300000 kg
+  Masse perdue totale   : 21.384000 kg
+  Masse restante        : 35.916000 kg
+  Détails par objet:
+    - Objet: ValvTran2, Masse initiale: 1.000000 kg, Masse finale: 0.209000 kg, Masse perdue: 0.791000 kg
+    - Objet: ValvTran4, Masse initiale: 1.000000 kg, Masse finale: 0.209000 kg, Masse perdue: 0.791000 kg
+    - Objet: RWheel2, Masse initiale: 17.100000 kg, Masse finale: 11.554000 kg, Masse perdue: 5.546000 kg
+    - Objet: RWheel1, Masse initiale: 17.100000 kg, Masse finale: 11.554000 kg, Masse perdue: 5.546000 kg
+    - Objet: ValvTran6, Masse initiale: 1.000000 kg, Masse finale: 0.209000 kg, Masse perdue: 0.791000 kg
+    - Objet: ValvTran3, Masse initiale: 1.000000 kg, Masse finale: 0.209000 kg, Masse perdue: 0.791000 kg
+    - Objet: ValvTran1, Masse initiale: 1.000000 kg, Masse finale: 0.209000 kg, Masse perdue: 0.791000 kg
+    - Objet: ValvTran5, Masse initiale: 1.000000 kg, Masse finale: 0.209000 kg, Masse perdue: 0.791000 kg
+    - Objet: RWheel3, Masse initiale: 17.100000 kg, Masse finale: 11.554000 kg, Masse perdue: 5.546000 kg
+----------------------------------------
+
+Matériau: drama-AA7075
+  Masse initiale totale : 805.160000 kg
+  Masse perdue totale   : 574.116000 kg
+  Masse restante        : 231.044000 kg
+  Détails par objet:
+    - Objet: RFCU5, Masse initiale: 1.800000 kg, Masse finale: 0.022000 kg, Masse perdue: 1.778000 kg
+    - Objet: PCU, Masse initiale: 13.450000 kg, Masse finale: 0.000000 kg, Masse perdue: 13.450000 kg
+    - Objet: SAsupp1, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: CCU, Masse initiale: 9.450000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.450000 kg
+    - Objet: SAsupp7, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: SAR-Tx, Masse initiale: 4.600000 kg, Masse finale: 0.285000 kg, Masse perdue: 4.315000 kg
+    - Objet: EIU, Masse initiale: 15.430000 kg, Masse finale: 0.000000 kg, Masse perdue: 15.430000 kg
+    - Objet: LNA1, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: RFCU2, Masse initiale: 1.800000 kg, Masse finale: 0.022000 kg, Masse perdue: 1.778000 kg
+    - Objet: SAsupp5, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: RFCU3, Masse initiale: 1.800000 kg, Masse finale: 0.022000 kg, Masse perdue: 1.778000 kg
+    - Objet: LH-MOD2, Masse initiale: 2.400000 kg, Masse finale: 0.034000 kg, Masse perdue: 2.366000 kg
+    - Objet: SADM2, Masse initiale: 12.460000 kg, Masse finale: 0.000000 kg, Masse perdue: 12.460000 kg
+    - Objet: SSR, Masse initiale: 14.420000 kg, Masse finale: 0.000000 kg, Masse perdue: 14.420000 kg
+    - Objet: DBU4, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: DBU5, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: H-SSPA2, Masse initiale: 1.200000 kg, Masse finale: 0.003000 kg, Masse perdue: 1.197000 kg
+    - Objet: MHS-MPU, Masse initiale: 5.650000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.650000 kg
+    - Objet: EPC2, Masse initiale: 1.600000 kg, Masse finale: 0.004000 kg, Masse perdue: 1.596000 kg
+    - Objet: ADCS-TXU, Masse initiale: 5.370000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.370000 kg
+    - Objet: BSP, Masse initiale: 10.460000 kg, Masse finale: 0.000000 kg, Masse perdue: 10.460000 kg
+    - Objet: Battery1, Masse initiale: 9.740000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.740000 kg
+    - Objet: TWT1, Masse initiale: 0.900000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.900000 kg
+    - Objet: NIU, Masse initiale: 8.750000 kg, Masse finale: 0.000000 kg, Masse perdue: 8.750000 kg
+    - Objet: IFring, Masse initiale: 25.350000 kg, Masse finale: 25.350000 kg, Masse perdue: 0.000000 kg
+    - Objet: FMU2, Masse initiale: 5.500000 kg, Masse finale: 0.434000 kg, Masse perdue: 5.066000 kg
+    - Objet: PropStr, Masse initiale: 45.000000 kg, Masse finale: 1.110000 kg, Masse perdue: 43.890000 kg
+    - Objet: RSJD, Masse initiale: 26.330000 kg, Masse finale: 0.000000 kg, Masse perdue: 26.330000 kg
+    - Objet: SADME, Masse initiale: 3.980000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.980000 kg
+    - Objet: STD1, Masse initiale: 4.730000 kg, Masse finale: 0.000000 kg, Masse perdue: 4.730000 kg
+    - Objet: Gyrosbl, Masse initiale: 8.800000 kg, Masse finale: 0.000000 kg, Masse perdue: 8.800000 kg
+    - Objet: T4S, Masse initiale: 9.270000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.270000 kg
+    - Objet: MOD2, Masse initiale: 0.900000 kg, Masse finale: 0.001000 kg, Masse perdue: 0.899000 kg
+    - Objet: SAsupp2, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: RFCU, Masse initiale: 1.800000 kg, Masse finale: 0.022000 kg, Masse perdue: 1.778000 kg
+    - Objet: TWT2, Masse initiale: 0.900000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.900000 kg
+    - Objet: DPU-SEM, Masse initiale: 3.950000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.950000 kg
+    - Objet: ASCATICU1, Masse initiale: 5.300000 kg, Masse finale: 0.352000 kg, Masse perdue: 4.948000 kg
+    - Objet: BEG4, Masse initiale: 2.860000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.860000 kg
+    - Objet: IntRing, Masse initiale: 25.350000 kg, Masse finale: 0.183000 kg, Masse perdue: 25.167000 kg
+    - Objet: RTU, Masse initiale: 9.660000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.660000 kg
+    - Objet: ASCATDPU1, Masse initiale: 3.740000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.740000 kg
+    - Objet: PMC1, Masse initiale: 7.610000 kg, Masse finale: 0.000000 kg, Masse perdue: 7.610000 kg
+    - Objet: BEG3, Masse initiale: 2.860000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.860000 kg
+    - Objet: SAsupp10, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: H-SSPA1, Masse initiale: 1.200000 kg, Masse finale: 0.003000 kg, Masse perdue: 1.197000 kg
+    - Objet: SAsupp11, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: BEG1, Masse initiale: 2.860000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.860000 kg
+    - Objet: DBU1, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: LNA2, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: SAsupp4, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: SLAFilt, Masse initiale: 0.700000 kg, Masse finale: 0.001000 kg, Masse perdue: 0.699000 kg
+    - Objet: SRADipl, Masse initiale: 1.800000 kg, Masse finale: 0.010000 kg, Masse perdue: 1.790000 kg
+    - Objet: EAIM, Masse initiale: 17.950000 kg, Masse finale: 0.000000 kg, Masse perdue: 17.950000 kg
+    - Objet: PMC2, Masse initiale: 7.610000 kg, Masse finale: 0.000000 kg, Masse perdue: 7.610000 kg
+    - Objet: SAsupp9, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: OBA, Masse initiale: 2.300000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.300000 kg
+    - Objet: TRSP1, Masse initiale: 2.600000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.600000 kg
+    - Objet: SAsupp12, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: SAsupp3, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: ASCATRFU1, Masse initiale: 4.340000 kg, Masse finale: 0.059000 kg, Masse perdue: 4.281000 kg
+    - Objet: ASCATICU2, Masse initiale: 5.300000 kg, Masse finale: 0.352000 kg, Masse perdue: 4.948000 kg
+    - Objet: Battery5, Masse initiale: 9.740000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.740000 kg
+    - Objet: ASCATSSP1, Masse initiale: 3.200000 kg, Masse finale: 0.085000 kg, Masse perdue: 3.115000 kg
+    - Objet: Battery2, Masse initiale: 9.740000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.740000 kg
+    - Objet: MHS-DBU, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: TCU, Masse initiale: 13.630000 kg, Masse finale: 0.000000 kg, Masse perdue: 13.630000 kg
+    - Objet: IASI, Masse initiale: 200.000000 kg, Masse finale: 200.000000 kg, Masse perdue: 0.000000 kg
+    - Objet: Battery3, Masse initiale: 9.740000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.740000 kg
+    - Objet: RFCU4, Masse initiale: 1.800000 kg, Masse finale: 0.022000 kg, Masse perdue: 1.778000 kg
+    - Objet: EPC1, Masse initiale: 1.600000 kg, Masse finale: 0.004000 kg, Masse perdue: 1.596000 kg
+    - Objet: ASCATEPC1, Masse initiale: 3.750000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.750000 kg
+    - Objet: UDAFilt, Masse initiale: 1.100000 kg, Masse finale: 0.004000 kg, Masse perdue: 1.096000 kg
+    - Objet: SAR-Rx, Masse initiale: 13.900000 kg, Masse finale: 1.957000 kg, Masse perdue: 11.943000 kg
+    - Objet: SSD2, Masse initiale: 1.650000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.650000 kg
+    - Objet: ASCATDPU2, Masse initiale: 3.740000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.740000 kg
+    - Objet: ASCATHRS, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: ASCATEPC2, Masse initiale: 3.750000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.750000 kg
+    - Objet: SAsupp8, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: SARP-3, Masse initiale: 8.310000 kg, Masse finale: 0.000000 kg, Masse perdue: 8.310000 kg
+    - Objet: RFCU1, Masse initiale: 1.800000 kg, Masse finale: 0.022000 kg, Masse perdue: 1.778000 kg
+    - Objet: MOD1, Masse initiale: 0.900000 kg, Masse finale: 0.001000 kg, Masse perdue: 0.899000 kg
+    - Objet: SADM1, Masse initiale: 22.200000 kg, Masse finale: 0.000000 kg, Masse perdue: 22.200000 kg
+    - Objet: TRSP2, Masse initiale: 2.600000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.600000 kg
+    - Objet: L-SSPA1, Masse initiale: 2.500000 kg, Masse finale: 0.034000 kg, Masse perdue: 2.466000 kg
+    - Objet: DBU3, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: SAsupp6, Masse initiale: 1.700000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.700000 kg
+    - Objet: DBU2, Masse initiale: 0.400000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.400000 kg
+    - Objet: EPRM, Masse initiale: 9.710000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.710000 kg
+    - Objet: LH-MOD1, Masse initiale: 2.400000 kg, Masse finale: 0.034000 kg, Masse perdue: 2.366000 kg
+    - Objet: PDU1, Masse initiale: 11.140000 kg, Masse finale: 0.000000 kg, Masse perdue: 11.140000 kg
+    - Objet: FMU1, Masse initiale: 5.500000 kg, Masse finale: 0.434000 kg, Masse perdue: 5.066000 kg
+    - Objet: SSD1, Masse initiale: 1.650000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.650000 kg
+    - Objet: EDR, Masse initiale: 5.590000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.590000 kg
+    - Objet: ASCATSSP2, Masse initiale: 3.200000 kg, Masse finale: 0.085000 kg, Masse perdue: 3.115000 kg
+    - Objet: STD2, Masse initiale: 4.730000 kg, Masse finale: 0.000000 kg, Masse perdue: 4.730000 kg
+    - Objet: L-SSPA2, Masse initiale: 2.500000 kg, Masse finale: 0.034000 kg, Masse perdue: 2.466000 kg
+    - Objet: IASI-IMS, Masse initiale: 7.970000 kg, Masse finale: 0.000000 kg, Masse perdue: 7.970000 kg
+    - Objet: Battery4, Masse initiale: 9.740000 kg, Masse finale: 0.000000 kg, Masse perdue: 9.740000 kg
+    - Objet: GRAS-GEU, Masse initiale: 5.230000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.230000 kg
+    - Objet: ADCS-RPU, Masse initiale: 8.500000 kg, Masse finale: 0.000000 kg, Masse perdue: 8.500000 kg
+    - Objet: PDU2, Masse initiale: 11.140000 kg, Masse finale: 0.000000 kg, Masse perdue: 11.140000 kg
+    - Objet: IASI-DPS, Masse initiale: 7.480000 kg, Masse finale: 0.000000 kg, Masse perdue: 7.480000 kg
+    - Objet: BEG2, Masse initiale: 2.860000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.860000 kg
+    - Objet: ASCATRFU2, Masse initiale: 4.340000 kg, Masse finale: 0.059000 kg, Masse perdue: 4.281000 kg
+----------------------------------------
+
+Matériau: drama-Bat-NiCd
+  Masse initiale totale : 191.300000 kg
+  Masse perdue totale   : 191.135000 kg
+  Masse restante        : 0.165000 kg
+  Détails par objet:
+    - Objet: Battery3-Internal, Masse initiale: 38.260000 kg, Masse finale: 0.033000 kg, Masse perdue: 38.227000 kg
+    - Objet: Battery2-Internal, Masse initiale: 38.260000 kg, Masse finale: 0.033000 kg, Masse perdue: 38.227000 kg
+    - Objet: Battery5-Internal, Masse initiale: 38.260000 kg, Masse finale: 0.033000 kg, Masse perdue: 38.227000 kg
+    - Objet: Battery1-Internal, Masse initiale: 38.260000 kg, Masse finale: 0.033000 kg, Masse perdue: 38.227000 kg
+    - Objet: Battery4-Internal, Masse initiale: 38.260000 kg, Masse finale: 0.033000 kg, Masse perdue: 38.227000 kg
+----------------------------------------
+
+Matériau: drama-CFRP
+  Masse initiale totale : 132.000000 kg
+  Masse perdue totale   : 9.840000 kg
+  Masse restante        : 122.160000 kg
+  Détails par objet:
+    - Objet: CentCone, Masse initiale: 132.000000 kg, Masse finale: 122.160000 kg, Masse perdue: 9.840000 kg
+----------------------------------------
+
+Matériau: drama-Copper
+  Masse initiale totale : 4.500000 kg
+  Masse perdue totale   : 4.500000 kg
+  Masse restante        : 0.000000 kg
+  Détails par objet:
+    - Objet: MAC-Y, Masse initiale: 4.500000 kg, Masse finale: 0.000000 kg, Masse perdue: 4.500000 kg
+----------------------------------------
+
+Matériau: drama-El-Mat
+  Masse initiale totale : 201.480000 kg
+  Masse perdue totale   : 196.370000 kg
+  Masse restante        : 5.110000 kg
+  Détails par objet:
+    - Objet: EIU-Internal, Masse initiale: 12.670000 kg, Masse finale: 0.000000 kg, Masse perdue: 12.670000 kg
+    - Objet: ASCATDPU1-internal, Masse initiale: 1.760000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.760000 kg
+    - Objet: SSR-internal, Masse initiale: 9.280000 kg, Masse finale: 1.505000 kg, Masse perdue: 7.775000 kg
+    - Objet: ASCATEPC2-internal, Masse initiale: 1.550000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.550000 kg
+    - Objet: EAIM-internal, Masse initiale: 14.050000 kg, Masse finale: 0.000000 kg, Masse perdue: 14.050000 kg
+    - Objet: PMC2-internal, Masse initiale: 2.290000 kg, Masse finale: 0.075000 kg, Masse perdue: 2.215000 kg
+    - Objet: PDU2-internal, Masse initiale: 5.960000 kg, Masse finale: 0.313000 kg, Masse perdue: 5.647000 kg
+    - Objet: CCU-internal, Masse initiale: 5.150000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.150000 kg
+    - Objet: EDR-internal, Masse initiale: 2.810000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.810000 kg
+    - Objet: SADM2-internal, Masse initiale: 17.540000 kg, Masse finale: 0.000000 kg, Masse perdue: 17.540000 kg
+    - Objet: PCU-internal, Masse initiale: 8.250000 kg, Masse finale: 0.027000 kg, Masse perdue: 8.223000 kg
+    - Objet: NIU-internal, Masse initiale: 2.250000 kg, Masse finale: 0.701000 kg, Masse perdue: 1.549000 kg
+    - Objet: ASCATEPC1-internal, Masse initiale: 1.550000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.550000 kg
+    - Objet: BEG4-internal, Masse initiale: 1.640000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.640000 kg
+    - Objet: BEG2-internal, Masse initiale: 1.640000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.640000 kg
+    - Objet: SADM1_internal, Masse initiale: 19.800000 kg, Masse finale: 0.000000 kg, Masse perdue: 19.800000 kg
+    - Objet: ADCS-TXU-internal, Masse initiale: 1.630000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.630000 kg
+    - Objet: RSJD-Internal, Masse initiale: 20.370000 kg, Masse finale: 0.000000 kg, Masse perdue: 20.370000 kg
+    - Objet: PMC1-internal, Masse initiale: 2.290000 kg, Masse finale: 0.075000 kg, Masse perdue: 2.215000 kg
+    - Objet: ASCATDPU2-internal, Masse initiale: 1.760000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.760000 kg
+    - Objet: IASI-IMS-internal, Masse initiale: 6.130000 kg, Masse finale: 0.000000 kg, Masse perdue: 6.130000 kg
+    - Objet: BEG3-internal, Masse initiale: 1.640000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.640000 kg
+    - Objet: SADME-internal, Masse initiale: 0.520000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.520000 kg
+    - Objet: SARP-3-internal, Masse initiale: 5.890000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.890000 kg
+    - Objet: TCU-internal, Masse initiale: 9.570000 kg, Masse finale: 0.305000 kg, Masse perdue: 9.265000 kg
+    - Objet: ADCS-RPU-internal, Masse initiale: 5.500000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.500000 kg
+    - Objet: MHS-MPU-internal, Masse initiale: 2.150000 kg, Masse finale: 0.000000 kg, Masse perdue: 2.150000 kg
+    - Objet: PDU1-internal, Masse initiale: 5.960000 kg, Masse finale: 0.313000 kg, Masse perdue: 5.647000 kg
+    - Objet: BEG1-internal, Masse initiale: 1.640000 kg, Masse finale: 0.000000 kg, Masse perdue: 1.640000 kg
+    - Objet: RTU-internal, Masse initiale: 2.640000 kg, Masse finale: 1.443000 kg, Masse perdue: 1.197000 kg
+    - Objet: T4S-internal, Masse initiale: 6.830000 kg, Masse finale: 0.000000 kg, Masse perdue: 6.830000 kg
+    - Objet: DPU-SEM-internal, Masse initiale: 0.450000 kg, Masse finale: 0.000000 kg, Masse perdue: 0.450000 kg
+    - Objet: EPRM-internal, Masse initiale: 5.390000 kg, Masse finale: 0.000000 kg, Masse perdue: 5.390000 kg
+    - Objet: BSP-internal, Masse initiale: 7.540000 kg, Masse finale: 0.000000 kg, Masse perdue: 7.540000 kg
+    - Objet: IASI-DPS-internal, Masse initiale: 4.720000 kg, Masse finale: 0.000000 kg, Masse perdue: 4.720000 kg
+    - Objet: GRAS-GEU-internal, Masse initiale: 0.670000 kg, Masse finale: 0.353000 kg, Masse perdue: 0.317000 kg
+----------------------------------------
+
+Matériau: drama-HC-AA7075
+  Masse initiale totale : 906.400000 kg
+  Masse perdue totale   : 182.238000 kg
+  Masse restante        : 724.162000 kg
+  Détails par objet:
+    - Objet: SVM, Masse initiale: 112.400000 kg, Masse finale: 112.400000 kg, Masse perdue: 0.000000 kg
+    - Objet: SheWallY1, Masse initiale: 10.000000 kg, Masse finale: 2.475000 kg, Masse perdue: 7.525000 kg
+    - Objet: SheWallY2, Masse initiale: 10.000000 kg, Masse finale: 2.475000 kg, Masse perdue: 7.525000 kg
+    - Objet: Cylind2, Masse initiale: 62.000000 kg, Masse finale: 37.328000 kg, Masse perdue: 24.672000 kg
+    - Objet: PLM, Masse initiale: 387.000000 kg, Masse finale: 387.000000 kg, Masse perdue: 0.000000 kg
+    - Objet: Ribpanel2, Masse initiale: 3.600000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.600000 kg
+    - Objet: SheWallY4, Masse initiale: 10.000000 kg, Masse finale: 2.475000 kg, Masse perdue: 7.525000 kg
+    - Objet: Ribpanel5, Masse initiale: 3.600000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.600000 kg
+    - Objet: Ribpanel3, Masse initiale: 3.600000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.600000 kg
+    - Objet: SheWallZ2, Masse initiale: 5.000000 kg, Masse finale: 0.256000 kg, Masse perdue: 4.744000 kg
+    - Objet: Ribpanel4, Masse initiale: 3.600000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.600000 kg
+    - Objet: BatFloor, Masse initiale: 91.000000 kg, Masse finale: 12.615000 kg, Masse perdue: 78.385000 kg
+    - Objet: Ribpanel1, Masse initiale: 3.600000 kg, Masse finale: 0.000000 kg, Masse perdue: 3.600000 kg
+    - Objet: SheWallZ1, Masse initiale: 5.000000 kg, Masse finale: 0.256000 kg, Masse perdue: 4.744000 kg
+    - Objet: SheWallY3, Masse initiale: 10.000000 kg, Masse finale: 2.475000 kg, Masse perdue: 7.525000 kg
+    - Objet: Cylind1, Masse initiale: 186.000000 kg, Masse finale: 164.407000 kg, Masse perdue: 21.593000 kg
+----------------------------------------
+
+Matériau: drama-SolarPanel-Mat
+  Masse initiale totale : 60.000000 kg
+  Masse perdue totale   : 60.000000 kg
+  Masse restante        : 0.000000 kg
+  Détails par objet:
+    - Objet: SolarP, Masse initiale: 60.000000 kg, Masse finale: 0.000000 kg, Masse perdue: 60.000000 kg
+----------------------------------------
+
+Matériau: drama-TiAl6v4
+  Masse initiale totale : 224.000000 kg
+  Masse perdue totale   : 0.000000 kg
+  Masse restante        : 224.000000 kg
+  Détails par objet:
+    - Objet: Tank2, Masse initiale: 56.000000 kg, Masse finale: 56.000000 kg, Masse perdue: 0.000000 kg
+    - Objet: Tank1, Masse initiale: 56.000000 kg, Masse finale: 56.000000 kg, Masse perdue: 0.000000 kg
+    - Objet: Tank3, Masse initiale: 56.000000 kg, Masse finale: 56.000000 kg, Masse perdue: 0.000000 kg
+    - Objet: Tank4, Masse initiale: 56.000000 kg, Masse finale: 56.000000 kg, Masse perdue: 0.000000 kg
+----------------------------------------
+

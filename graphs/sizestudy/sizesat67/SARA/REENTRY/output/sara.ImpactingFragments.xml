@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragments>
+	<fragment>
+		<name>CentCone</name>
+		<objects>
+			<uniqueID>a6bfcbfa-60aa-4e7a-bf6f-ed921bdc8db6</uniqueID>
+		</objects>
+		<epoch>2016-11-03T05:43:15.397</epoch>
+		<mass unit="kg">2.2471538133940610e+00</mass>
+		<velocity unit="m/s">2.1994513048099748e+01</velocity>
+		<latitude unit="deg">7.4806378709856212e+00</latitude>
+		<longitude unit="deg">-8.6565492441609280e+01</longitude>
+		<crossSectionArea unit="m2">1.6283503042086617e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank1</name>
+		<objects>
+			<uniqueID>9e7d164a-03c6-443b-a8dd-67661cfc0a2d</uniqueID>
+		</objects>
+		<epoch>2016-11-03T05:38:53.501</epoch>
+		<mass unit="kg">1.3999999999999999e+00</mass>
+		<velocity unit="m/s">4.1062255340451635e+01</velocity>
+		<latitude unit="deg">7.8652264348711656e+00</latitude>
+		<longitude unit="deg">-8.3399472122801640e+01</longitude>
+		<crossSectionArea unit="m2">2.9201103715117128e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank2</name>
+		<objects>
+			<uniqueID>3d841389-2064-480e-87b2-bedfd6570cd3</uniqueID>
+		</objects>
+		<epoch>2016-11-03T05:38:53.501</epoch>
+		<mass unit="kg">1.3999999999999999e+00</mass>
+		<velocity unit="m/s">4.1062255340451635e+01</velocity>
+		<latitude unit="deg">7.8652264348711656e+00</latitude>
+		<longitude unit="deg">-8.3399472122801640e+01</longitude>
+		<crossSectionArea unit="m2">2.9201103715117128e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank3</name>
+		<objects>
+			<uniqueID>b44d182e-cc26-4486-970c-ebf58aa27cc0</uniqueID>
+		</objects>
+		<epoch>2016-11-03T05:38:53.501</epoch>
+		<mass unit="kg">1.3999999999999999e+00</mass>
+		<velocity unit="m/s">4.1062255340451635e+01</velocity>
+		<latitude unit="deg">7.8652264348711656e+00</latitude>
+		<longitude unit="deg">-8.3399472122801640e+01</longitude>
+		<crossSectionArea unit="m2">2.9201103715117128e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank4</name>
+		<objects>
+			<uniqueID>8d404d07-39cb-4bdd-be3e-90c64523e7f8</uniqueID>
+		</objects>
+		<epoch>2016-11-03T05:38:53.501</epoch>
+		<mass unit="kg">1.3999999999999999e+00</mass>
+		<velocity unit="m/s">4.1062255340451635e+01</velocity>
+		<latitude unit="deg">7.8652264348711656e+00</latitude>
+		<longitude unit="deg">-8.3399472122801640e+01</longitude>
+		<crossSectionArea unit="m2">2.9201103715117128e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+</fragments>

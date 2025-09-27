@@ -1,0 +1,29 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                         ---- DRAMA ( SESAM r2.1.5 ) ----
+#                                      ESA 2018
+#
+#                         final state of history of the compound  objects
+#-------------------------------------------------------------------------------
+# Filename      : compoundHistory.txt
+# RunID         : sara
+# Content       : This file lists the history of the compound  objects and provides information on the component of each compound until they separate,
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  CompoundID             Time[s]      Altitude[km]
+#     ObjectName                                    mass[kg]        ObjectFinalState
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   4519942503439007991    876.550      90.985         
+x x x case3_hollow                                  112.890                   
+x x x case4_hollow                                  40.280                    
+x x x case4_solid                                   99.928                    
+x x x case3_solid                                   287.980                   

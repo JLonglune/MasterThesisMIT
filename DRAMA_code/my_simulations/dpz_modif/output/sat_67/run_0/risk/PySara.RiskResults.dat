@@ -1,0 +1,247 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#                                                                               
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#               Detailed results log file -PySara.RiskResults.dat-
+#                           runID: PySara            
+#                   run date+time: 2025-05-19T12-19-21.780                          
+#_______________________________________________________________________________
+# 
+#
+# Run configuration
+# -----------------
+#
+# Run identifier
+PySara
+# Re-entry type
+controlled
+# Uncontrolled re-entry methodology
+latitudeBandLimited
+# World population growth scenario
+MEDIUM-VARIANT
+# Casualty risk threshold /J 
+15.0
+# Orbit inclination / deg
+90.0
+#
+#
+# Total risk of the run configuration
+# -----------------------------------
+#
+# Total casualty area / m^2
+3.384113179342301
+# Total impact mass / kg
+7.863286410089044
+# Total casualty probability under the 1D projection /-
+5.263461825932847E-5
+# Total casualty probability under the 2D projection /-
+1.0702572067222693E-4
+# Total fatality probability under the 1D projection /-
+5.263461825932847E-5
+# Total fatality probability under the 2D projection /-
+1.0702572067222693E-4
+# Total number of unique fragments /-
+5
+# Total number of fragments /-
+5
+# Total number of unique floating fragments /-
+5
+# Total number of floating fragments /-
+5
+#
+# Individual fragment risk of the run configuration
+# -------------------------------------------------
+#
+# Unique ID
+a6bfcbfa-60aa-4e7a-bf6f-ed921bdc8db6
+# Connected-to IDs
+a6bfcbfa-60aa-4e7a-bf6f-ed921bdc8db6
+# Name
+CentCone
+# Quantity
+1
+# Mass / kg 
+2.2632864100890444
+# Velocity / m/s 
+22.58160573937211
+# Latitude / deg 
+5.486814042090505
+# Longitude / deg 
+40.34909438938591
+# Country 
+Ethiopia
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T21:11:08.381
+# Average geometric cross section / m^2 
+0.16283503042086617
+# Average casualty area / m^2 
+1.0070689034678135
+# Impact energy / J 
+577.0575948483661
+# Casualty probability 1D / - 
+1.3372023834157499E-5
+# Casualty probability 2D / - 
+1.667989658613984E-5
+# Fatality probability 1D / - 
+1.3372023834157499E-5
+# Fatality probability 2D / - 
+1.667989658613984E-5
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+9e7d164a-03c6-443b-a8dd-67661cfc0a2d
+# Connected-to IDs
+9e7d164a-03c6-443b-a8dd-67661cfc0a2d
+# Name
+Tank1
+# Quantity
+1
+# Mass / kg 
+1.4
+# Velocity / m/s 
+42.085785105521296
+# Latitude / deg 
+5.982967840107723
+# Longitude / deg 
+43.55433148125319
+# Country 
+Ethiopia
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T21:06:31.720
+# Average geometric cross section / m^2 
+0.029201103715117128
+# Average casualty area / m^2 
+0.594261068968622
+# Impact energy / J 
+1239.8493155636825
+# Casualty probability 1D / - 
+9.815924390719259E-6
+# Casualty probability 2D / - 
+2.2587598055351585E-5
+# Fatality probability 1D / - 
+9.815924390719259E-6
+# Fatality probability 2D / - 
+2.2587598055351585E-5
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+3d841389-2064-480e-87b2-bedfd6570cd3
+# Connected-to IDs
+3d841389-2064-480e-87b2-bedfd6570cd3
+# Name
+Tank2
+# Quantity
+1
+# Mass / kg 
+1.4
+# Velocity / m/s 
+42.085785105521296
+# Latitude / deg 
+5.982967840107723
+# Longitude / deg 
+43.55433148125319
+# Country 
+Ethiopia
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T21:06:31.720
+# Average geometric cross section / m^2 
+0.029201103715117128
+# Average casualty area / m^2 
+0.594261068968622
+# Impact energy / J 
+1239.8493155636825
+# Casualty probability 1D / - 
+9.815924390719259E-6
+# Casualty probability 2D / - 
+2.2587598055351585E-5
+# Fatality probability 1D / - 
+9.815924390719259E-6
+# Fatality probability 2D / - 
+2.2587598055351585E-5
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+b44d182e-cc26-4486-970c-ebf58aa27cc0
+# Connected-to IDs
+b44d182e-cc26-4486-970c-ebf58aa27cc0
+# Name
+Tank3
+# Quantity
+1
+# Mass / kg 
+1.4
+# Velocity / m/s 
+42.085785105521296
+# Latitude / deg 
+5.982967840107723
+# Longitude / deg 
+43.55433148125319
+# Country 
+Ethiopia
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T21:06:31.720
+# Average geometric cross section / m^2 
+0.029201103715117128
+# Average casualty area / m^2 
+0.594261068968622
+# Impact energy / J 
+1239.8493155636825
+# Casualty probability 1D / - 
+9.815924390719259E-6
+# Casualty probability 2D / - 
+2.2587598055351585E-5
+# Fatality probability 1D / - 
+9.815924390719259E-6
+# Fatality probability 2D / - 
+2.2587598055351585E-5
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+8d404d07-39cb-4bdd-be3e-90c64523e7f8
+# Connected-to IDs
+8d404d07-39cb-4bdd-be3e-90c64523e7f8
+# Name
+Tank4
+# Quantity
+1
+# Mass / kg 
+1.4
+# Velocity / m/s 
+42.085785105521296
+# Latitude / deg 
+5.982967840107723
+# Longitude / deg 
+43.55433148125319
+# Country 
+Ethiopia
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T21:06:31.720
+# Average geometric cross section / m^2 
+0.029201103715117128
+# Average casualty area / m^2 
+0.594261068968622
+# Impact energy / J 
+1239.8493155636825
+# Casualty probability 1D / - 
+9.815924390719259E-6
+# Casualty probability 2D / - 
+2.2587598055351585E-5
+# Fatality probability 1D / - 
+9.815924390719259E-6
+# Fatality probability 2D / - 
+2.2587598055351585E-5
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++

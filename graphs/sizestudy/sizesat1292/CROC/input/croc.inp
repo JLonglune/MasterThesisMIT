@@ -1,0 +1,38 @@
+#---<DRAMA/CROC/croc.inp>--------------------------<ChK/TUBS-ILR>-<09/2012>---
+#    ######   ####     ##             #####   #####     ##    #    #    ##    
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #   
+#    #####    ####   ######   #####   #    #  #####   ######  # ## #  ######  
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #  
+#    ######  #####   #    #           #####   #    #  #    #  #    #  #    #  
+#-----------------------------------------------------------------------------
+#            ESA Debris Risk Assessment and Mitigation Analysis Tool          
+#            Cross Section of Complex Bodies
+#-----------------------------------------------------------------------------
+#                               DRAMA - CROC
+#-----------------------------------------------------------------------------
+# Note:  "croc.inp" specifies the user settings for the CROC software.      
+#-----------------------------------------------------------------------------
+#
+#=============================================================================
+#
+#-----------------------------< Basic Settings >------------------------------
+# Run identifier (max. 6 characters)
+#
+  croc  
+#
+#-----------------------------------------------------------------------------
+# Comments lines; do not use characters: ;!
+#
+  DRAMA
+  CROC - Cross-section of Complex Bodies
+#
+   1   Functionality switch
+#                           1 - F1. User defined Aspect Angle
+#                           2 - F2. User defined Aspect Angle and Rotation Axis
+#                           3 - F3. Randomly Tumbling satellite
+#
+   30.00  -(deg)- Aspect Angle Theta - only valid with F1. and F2.
+   45.00  -(deg)- Aspect Angle Phi - only valid with F1. and F2.
+   90.00  -(deg)- Rotation Axis Theta - only valid with F2.
+   135.00  -(deg)- Rotation Axis Phi - only valid with F2.
+#---eof-------------------------------------------------------------------eof---

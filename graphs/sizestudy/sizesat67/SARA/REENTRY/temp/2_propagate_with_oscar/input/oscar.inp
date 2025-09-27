@@ -1,0 +1,185 @@
+#=====<ESA/DRAMA>==================================================================================
+#                                                                                                  
+#      _/_/_/_/    _/_/_/    _/_/                _/_/_/    _/_/_/      _/_/    _/      _/    _/_/    
+#     _/        _/        _/    _/              _/    _/  _/    _/  _/    _/  _/_/  _/_/  _/    _/   
+#    _/_/_/      _/_/    _/_/_/_/  _/_/_/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/  _/  _/  _/_/_/_/    
+#   _/              _/  _/    _/              _/    _/  _/    _/  _/    _/  _/      _/  _/    _/     
+#  _/_/_/_/  _/_/_/    _/    _/              _/_/_/    _/    _/  _/    _/  _/      _/  _/    _/      
+#                                                                                                  
+#==================================================================================================
+#                                                                                                  
+# OSCAR (Orbital Spacecraft Active Removal) Input File
+# [v2.2.1, 02/2017]
+#                                                                                                  
+#==================================================================================================
+#                                                                                                  
+# 1) Basic Settings
+#                                                                                                  
+#--------------------------------------------------------------------------------------------------
+#                                                                                                  
+# Begin Date: Date the simulation starts at in YYYY MM DD hh mm ss format
+#                                                                                                  
+  2016 11 01 12 00 00
+#                                                                                                  
+# Run-ID (max. 25 characters, no spaces) 
+#                                                                                                  
+  oscar
+#                                                                                                  
+# Comment lines (two lines, 80 characters each)
+#                                                                                                  
+  DRAMA-2.0
+  Orbital Spacecraft Active Removal
+#                                                                                                  
+# Target Orbit
+#                                                                                                  
+  6628.007092  semi-major axis [km]
+  0.000472  eccentricity [-]
+  10.030202  inclination [deg]
+  8.220109  right ascension of ascending node (RAAN) in [deg]
+  180.443961  argument of perigee [deg]
+  179.971395  mean anomaly [deg]
+#                                                                                                  
+# Spacecraft Parameters
+#                                                                                                  
+  2.618258  cross-sectional area [m**2]
+  67.136052  spacecraft dry mass [kg]
+  1.729246  drag coefficient
+  1.300000  reflectivity coefficient
+#                                                                                                  
+#==================================================================================================
+#                                                                                                  
+# 2) Disposal/Removal Options
+#                                                                                                  
+#--------------------------------------------------------------------------------------------------
+#                                                                                                  
+# Disposal Option
+#                                                                                                  
+# 1 = Direct De-Orbit
+# 2 = Delayed De-Orbit
+# 3 = Re-Orbit
+# 4 = none
+#                                                                                                  
+  4 
+#                                                                                                  
+# Disposal System
+#                                                                                                  
+# 1 = Chemical Propulsion System
+# 2 = Electric Propulsion System
+# 3 = Electrodynamic Tether System
+# 4 = Drag Augmentation Device
+#                                                                                                  
+  1
+#                                                                                                  
+# Scenario Options:
+#                                                                                                  
+#                                                                                                  
+  1        Number of Hohmann Maneuvers (only chemical propulsion system)
+  2000.0   Re-Orbit Altitude [km] (only "Re-Orbit" disposal option) 
+  25.0     Lifetime Limit [years] (only "Delayed De-Orbit" disposal option) 
+  5.0      Lifetime margin [percent] (mandated conservative margin of error for OSCAR: 5.0 percent [ISO-27852:2011])
+#                                                                                                  
+# Chemical Propulsion
+#                                                                                                  
+  Cold Gas
+  60.0     Specific Impulse [s]
+#                                                                                                  
+# Electric Propulsion
+#                                                                                                  
+  
+  3248.0   Specific Impulse [s]
+  18.0     Total Thrust [mN]
+  10000.0  Thruster Lifetime [h]
+#                                                                                                  
+# Electrodynamic Tether
+#                                                                                                  
+  5.0      Tether Length [km]
+  275.0    Tether Resistance [Ohm]
+  35.26    Tether Relative Angle [deg]
+#                                                                                                  
+# Drag Augmentation
+#                                                                                                  
+  100.0    Cross-Sectional Area [m**2]
+  2.2      Drag Coefficient
+  1.3      Solar Reflectivity Coefficient
+#                                                                                                  
+#==================================================================================================
+#                                                                                                  
+# 3) Orbit Prediction
+#                                                                                                  
+#--------------------------------------------------------------------------------------------------
+#                                                                                                  
+# Propagation Span [years]
+#                                                                                                  
+  100.0
+#                                                                                                  
+# Solar & Geomagnetic Activity Scenario
+#                                                                                                  
+# 1 = Latest prediction
+# 2 = Best case / Worst case (+ Confidence interval)
+# 3 = Constant solar flux    (+ Value OR automatically computed)
+# 4 = ECSS repeated solar cycle     
+# 5 = Monte Carlo sampling   (+ No. of sampled cycles)
+#                                                                                                  
+  1
+#                                                                                                  
+#--------------------------------------------------------------
+#                                                                                                  
+# Latest prediction scenario options
+#  
+  1        Solar and geomagnetic data to be used (1 = ESA, 2 = user-defined)
+#                                                                                                  
+#--------------------------------------------------------------
+#                                                                                                  
+# Best Case / Worst Case scenario options
+#                                                                                                  
+  50.0     Confidence interval
+#                                                                                                  
+#--------------------------------------------------------------
+#                                                                                                  
+# Constant Solar Flux scenario options
+#                                                                                                  
+  2        Mode Switch (1 = specific statistical average; 2 = user-defined)
+  200.0    User-defined constant solar flux level [10**(-22) W/m**2/Hz]
+  15.0     User-defined constant geomagnetic activity Ap
+#                                                                                                  
+#--------------------------------------------------------------
+#                                                                                                  
+# Monte-Carlo Sampling scenario options
+#                                                                                                  
+  2        No. of sampled cycles [1:6]
+#                                                                                                  
+#==================================================================================================
+#                                                                                                  
+# 4) Plot Options
+#                                                                                                  
+#-------------------------------------------------------------------------------------------------
+#                                                                                                  
+# Generate Plots
+#                                                                                                  
+# 1 = yes
+# 0 = no
+#                                                                                                  
+  1    Altitude vs. Time
+  0    Eccentricity vs. Time
+  0    Inclination vs. RAAN (geosynchronous region)
+  0    Inclination vs. Time
+  1    Altitude vs. Declination (geosynchronous region)
+  0    Solar Activity vs. Time
+#                                                                                                  
+# Linestyle of Data in Plot
+#                                                                                                  
+   1
+#                                                                                                  
+# Plot Critical Altitude
+#                                                                                                  
+# 1 = yes
+# 0 = no
+#                                                                                                  
+  0
+#                                                                                                  
+# Linestyle of Critical Altitude
+#                                                                                                  
+  3
+#                                                                                                  
+#==================================================================================================
+#                                                                                                  

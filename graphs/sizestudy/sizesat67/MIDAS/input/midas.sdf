@@ -1,0 +1,101 @@
+# =====<ESA/DRAMA>=================================================================================
+#
+#      _/_/_/_/    _/_/_/    _/_/                _/_/_/    _/_/_/      _/_/    _/      _/    _/_/
+#     _/        _/        _/    _/              _/    _/  _/    _/  _/    _/  _/_/  _/_/  _/    _/
+#    _/_/_/      _/_/    _/_/_/_/  _/_/_/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/  _/  _/  _/_/_/_/
+#   _/              _/  _/    _/              _/    _/  _/    _/  _/    _/  _/      _/  _/    _/
+#  _/_/_/_/  _/_/_/    _/    _/              _/_/_/    _/    _/  _/    _/  _/      _/  _/    _/
+#
+# =================================================================================================
+#
+# MIDAS (MASTER-based Impact Flux and Damage Assessment Software) Surface Definition File
+# [v3.0.0, 11/2018]
+#
+#===============================================================================
+#
+# 1) Analysis Settings
+#
+#--------------------------------------:----------------------------------------
+# Target type                                                                   
+  1               -(1:3)-            1 = sphere
+#                                    2 = randomly tumbling plate                 
+#                                    3 = oriented surface (defined in .sdf file) 
+#
+#===============================================================================
+#
+# 2) Surface Definitions
+#
+#-------------------------------------------------------------------------------
+# 
+# Surface orientation (1,2,3) and offset angles A and h: 
+#               - 1 = earth oriented
+#                     -180deg<A<180deg :  azimuth of surface normal
+#                      -90deg<h<90deg  :  elevation of surface normal
+#               - 2 = sun oriented
+#                     -180deg<A<180deg :  right asc. deviation from sun LOS
+#                      -90deg<h<90deg  :  declination deviation from sun LOS
+#               - 3 = inertially fixed
+#                     -180deg<A<180deg :  right asc. of surface normal
+#                      -90deg<h<90deg  :  declination of surface normal
+#
+# Surface area: - required for computing the number of impacts [m^2]
+#
+# Ballistic limit equation (BLE) type (1,9) :
+#               - Single Wall Equation 
+#                   1 = Cour-Palais thin plate
+#                   2 = Cour-Palais galss target
+#                   3 = User-defined BLE parameters
+#               - Multiple Wall Equation 
+#                   4 = (Whipple Shield - Christansen)
+#                   5 = Multiple Wall Equation (ESA tripple wall)
+#                   6 = User-defined BLE parameters
+#               - Schaefer-Ryan-Lambert (SRL) Equation 
+#                   7 = SRL Original
+#                   8 = SRL Rudolph recalibration
+#                   9 = User-defined BLE parameters
+#
+# Number of user defined set of BLE parameters (1,10) :
+#               - considered for BLE type 3, 6 & 9
+#
+# Wall thickness (mm) / density (g/cm^3) :
+#               - considered for BLE type 1 - 3
+#                
+# Spacing between wall and shield (cm):
+#               - considered for BLE type 4 - 6
+#
+# Shield (outer bumper) thickness (cm) / density (g/cm^3):
+#               - considered for BLE type 4 - 9
+#
+# Inner bumper thickness (cm):
+#               - considered for BLE type 7 - 9
+#
+# Equivalent MLI/CFRP/cable thickness (cm):
+#               - considered for BLE type 7 - 9
+#
+# Spacing between wall and inner bumper (cm):
+#               - considered for BLE type 7 - 9
+#
+# Spacing between inner and outer bumpers (cm):
+#               - considered for BLE type 7 - 9
+#
+# Yield stress of cover plate (ksi):
+#               - considered for BLE type 7 - 9
+#
+# Descripton of the surface (CHAR*30)
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# On/Off  Orien-  Angle A  Angle h  Area   BLE  BLE  Wall      Wall     Spacing Shield/OB  Shield   Inner Bump   Equiv MLI  Bumpers  Inner to  Wall   Description
+# Switch  tation                           type No.  thickness density  between thickness  density  thickness    thickness  spacing  wall spc  yield
+# (0,1)   (1,2,3)  [deg]    [deg]   [m^2]  [-]  [-]  [cm]      [g/cm^3]  [cm]   [cm]       [g/cm^3] [cm]         [cm]       [cm]     [cm]     [ksi]   [-]
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+     1       1       0.0     0.0     1.000     5    1     0.500      2.700     5.00     0.500      2.700     0.05     0.00     3.50     10.00     73.00   Surface-01
+     0       1       0.0    90.0     1.000     5    1     0.500      2.700     10.00     0.500      2.700     0.05     0.00     3.50     10.00     73.00   Surface-02
+     0       1     180.0     0.0     1.000     5    1     0.500      2.700     15.00     0.500      2.700     0.05     0.00     3.50     10.00     73.00   Surface-03
+     0       1       0.0   -90.0     1.000     5    1     0.500      2.700     20.00     0.500      2.700     0.05     0.00     3.50     10.00     73.00   Surface-04
+     0       1      90.0     0.0     1.000     5    1     0.500      2.700     25.00     0.500      2.700     0.05     0.00     3.50     10.00     73.00   Surface-05
+     0       1     -90.0     0.0     1.000     5    1     0.500      2.700     30.00     0.500      2.700     0.05     0.00     3.50     10.00     73.00   Surface-06
+     0       2       0.0     0.0     1.000     1    1     0.500      1.000     20.00     2.000      2.000     0.05     0.00     3.50     10.00     73.00   Surface-07
+     0       3       0.0     0.0     1.000     1    1     2.000      2.000     30.00     2.000      2.000     0.05     0.00     3.50     10.00     73.00   Surface-08
+     0       3       0.0     0.0     1.000     1    1     2.000      2.000     30.00     2.000      2.000     0.05     0.00     3.50     10.00     73.00   Surface-09
+     0       3       0.0     0.0     1.100     1    1     2.000      2.000     30.00     2.000      2.000     0.05     0.00     3.50     10.00     73.00   Surface-10
+#---eof-------------------------------------------------------------------------------------------------------------------eof---

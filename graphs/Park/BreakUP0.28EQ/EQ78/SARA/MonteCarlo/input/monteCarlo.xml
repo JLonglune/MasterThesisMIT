@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE monteCarlo SYSTEM "monteCarlo.dtd">
+<monteCarlo>
+	<binaryPaths>
+		<SesamLibs>/Applications/DRAMA-3.1.1/TOOLS/SARA/REENTRY</SesamLibs>
+		<SesamBinary>/Applications/DRAMA-3.1.1/TOOLS/SARA/REENTRY/sesam_osx</SesamBinary>
+		<SeramLibs>/Applications/DRAMA-3.1.1/TOOLS/SARA/RISK/seram_lib</SeramLibs>
+		<SeramBinary>/Applications/DRAMA-3.1.1/TOOLS/SARA/RISK/seram.jar</SeramBinary>
+	</binaryPaths>
+	<sara>
+		<sesam>
+			<initialState>
+				<element6>
+					<mcRandom>
+						<mcID>a7d4a9ba-d2fc-492d-9534-fa13887bbd69</mcID>
+						<mcVariance>10.0</mcVariance>
+						<mcSamples>2</mcSamples>
+					</mcRandom>
+				</element6>
+			</initialState>
+		</sesam>
+	</sara>
+</monteCarlo>

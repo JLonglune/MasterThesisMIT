@@ -1,0 +1,176 @@
+<!ELEMENT monteCarlo (binaryPaths, sara?, objects?, materialList?, fragments?)>
+
+<!-- monteCarlo elements -->
+<!ELEMENT mcRandom (mcID, mcVariance, mcSamples)>
+<!ELEMENT mcPdf (mcID, mcDmin, mcDmax, mcBins, mcValues, mcSamples)>
+<!ELEMENT mcParametric (mcID, mcDmin, mcDmax, mcStep)>
+<!ELEMENT mcSelection (mcID, mcValues)>
+<!ELEMENT mcID (#PCDATA)>
+<!ELEMENT mcVariance (#PCDATA)>
+<!ELEMENT mcSamples (#PCDATA)>
+<!ELEMENT mcDmin (#PCDATA)>
+<!ELEMENT mcDmax (#PCDATA)>
+<!ELEMENT mcBins (#PCDATA)>
+<!ELEMENT mcValues (#PCDATA)>
+<!ELEMENT mcStep (#PCDATA)>
+
+<!-- general variable elements -->
+<!ELEMENT radius (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT height (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT width (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT length (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT latitude (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT longitude (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT magnitude (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT flightPathAngle (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT headingAngle (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT temperature (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT altitude (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT heatFlux (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT dynamicPressure (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT loadFactor (mcRandom|mcPdf|mcParametric)>
+
+<!-- sub elements of monteCarlo -->
+<!ELEMENT binaryPaths (SesamLibs, SesamBinary, SeramLibs, SeramBinary)>
+<!ELEMENT sara (sesam*, seram*)>
+<!ELEMENT objects (object*, inclusion*, connection-to*)>
+<!ELEMENT materialList (metalMaterial*, CFRPMaterial*)>
+<!ELEMENT fragments (fragment*)>
+
+<!-- sub elements of monteCarlo/binaryPaths -->
+<!ELEMENT SesamLibs (#PCDATA)>
+<!ELEMENT SesamBinary (#PCDATA)>
+<!ELEMENT SeramLibs (#PCDATA)>
+<!ELEMENT SeramBinary (#PCDATA)>
+
+<!-- sub elements of monteCarlo/sara -->
+<!ELEMENT sesam ( initialState*, attitude?, globalSpacecraftTemperature?, environment?)>
+<!ELEMENT seram (growthScenario)>
+
+<!-- sub elements of monteCarlo/sara/sesam -->
+<!ELEMENT initialState (initialDate?, element1?, element2?, element3?, element4?, element5?, element6?, assumedCrossSection?, dragCoefficient?, reflectivityCoefficient?)>
+<!ELEMENT attitude (fixed)>
+<!ELEMENT globalSpacecraftTemperature (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT environment (densityScalingFactor|solarActivity)>
+
+<!-- sub elements of monteCarlo/sara/sesam/initialState -->
+<!ELEMENT initialDate (mcRandom|mcPdf|mcParametric)> <!-- interpreted as seconds -->
+<!ELEMENT element1 (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT element2 (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT element3 (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT element4 (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT element5 (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT element6 (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT assumedCrossSection (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT dragCoefficient (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT reflectivityCoefficient (mcRandom|mcPdf|mcParametric)>
+												   
+<!-- sub elements of monteCarlo/sara/sesam/attitude -->
+<!ELEMENT fixed (attack?,sideSlip?,bank?)>
+
+<!-- sub elements of monteCarlo/sara/sesam/environment -->
+<!ELEMENT densityScalingFactor (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT solarActivity (ap|f107a)>
+
+<!-- sub elements of monteCarlo/sara/sesam/attitude/fixed -->
+<!ELEMENT attack (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT sideSlip (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT bank (mcRandom|mcPdf|mcParametric)>
+
+<!-- sub elements of monteCarlo/sara/sesam/environment/solarActivity -->
+<!ELEMENT ap (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT f107a (mcRandom|mcPdf|mcParametric)>
+
+<!-- sub elements of monteCarlo/sara/seram -->
+<!ELEMENT growthScenario (mcSelection)>
+
+
+<!-- sub elements of monteCarlo/objects -->
+<!ELEMENT object (uniqueID, (primitive?,mass?,material?,scalingFactors?,temperature?,isExplosive?,deltaVelocity?))>
+<!ELEMENT inclusion (parent, breakUpTriggers)>
+<!ELEMENT connection-to (uniqueID, uniqueID, (connectionArea?, breakUpTriggers?))>
+
+<!-- sub elements of monteCarlo/objects/object -->
+<!ELEMENT uniqueID (#PCDATA)>
+<!ELEMENT primitive (sphere|cone|cylinder|box)>
+<!ELEMENT mass (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT material (mcSelection)>
+<!ELEMENT scalingFactors (drag?,lift?, sideForce?, averageHeatFlux?)>
+<!ELEMENT isExplosive (explosionTrigger)>
+<!ELEMENT deltaVelocity (magnitude?,flightPathAngle?,headingAngle?)>
+
+<!-- sub elements of monteCarlo/objects/inclusion -->
+<!ELEMENT parent (uniqueID)>
+<!ELEMENT children (uniqueID+)>
+
+<!-- sub elements of monteCarlo/objects/connection-to -->
+<!ELEMENT connectionArea (mcRandom|mcPdf|mcParametric)>
+
+<!-- common sub element of monteCarlo/objects/inclusion and monteCarlo/objects/connection-to -->
+<!ELEMENT breakUpTriggers (temperature?,altitude?,heatFlux?,dynamicPressure?,loadFactor?)>
+
+
+<!-- sub elements of monteCarlo/objects/object/primitive -->
+<!ELEMENT sphere (radius)>
+<!ELEMENT cone ( (radius,height?)|(height, radius?) )> <!-- at least one is required but any order allowed -->
+<!ELEMENT cylinder ( (radius,height?)|(height, radius?) )> <!-- at least one is required but any order allowed -->
+<!ELEMENT box ( (width,( (height,length?)|(length,height?) )?)|( height,( (width,length?)|(length,width?) )?)|( length,( (width,height?)|(height,width?) )?) )> <!-- at least one is required but any order allowed -->
+
+<!-- sub elements of monteCarlo/objects/object/scalingFactors -->
+<!ELEMENT drag (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT lift (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT sideForce (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT averageHeatFlux (mcRandom|mcPdf|mcParametric)>
+
+<!-- sub elements of monteCarlo/objects/object/isExplosive -->
+<!ELEMENT explosionTrigger ( (altitudeThreshold,temperatureThreshold?)|(temperatureThreshold, altitudeThreshold?) )> <!-- at least one is required but any order allowed -->
+
+<!-- sub elements of monteCarlo/objects/object/isExplosive/explosionTrigger -->
+<!ELEMENT altitudeThreshold (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT temperatureThreshold (mcRandom|mcPdf|mcParametric)>
+
+
+<!-- sub elements of monteCarlo/materialList -->
+<!ELEMENT metalMaterial (name, density?, specificHeatCapacity?, meltingHeat?, meltingTemperature?, emissivity?, heatConductivity?, oxideActivationTemperature?, oxideEmissivity?, oxideHeatOfFormation?, oxideReactionProbability?)>
+<!ELEMENT CFRPMaterial (name, heatConductivityVirgin?, emissivity?, compositionRatio?, Char?, Epoxy?)>
+
+<!-- sub elements of monteCarlo/materialList/metalMaterial and monteCarlo/materialList/CFRPMaterial -->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT density (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT specificHeatCapacity (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT meltingHeat (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT meltingTemperature (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT emissivity (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT heatConductivity (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT oxideActivationTemperature (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT oxideEmissivity (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT oxideReactionProbability (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT heatConductivityVirgin (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT compositionRatio (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT Char (densityFibre?, specificHeatCapacityFibre?, heatConductivityChar?, oxideHeatOfFormation?, oxideActivationTemperature?, oxideReactionRate?)>
+<!ELEMENT Epoxy (densityEpoxy?, specificHeatCapacityEpoxy?, specificHeatCapacityPyrolyzedGas?, heatPyrolysis?, pyroActivationEnergy?, pyroReactionTerms?, pyroReactionRate?, blockingFactor?, blowingFactor?)>
+
+<!-- sub elements of monteCarlo/materialList/CFRPMaterial/Char and monteCarlo/materialList/CFRPMaterial/Epoxy -->
+<!ELEMENT densityFibre (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT specificHeatCapacityFibre (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT heatConductivityChar (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT oxideHeatOfFormation (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT oxideReactionRate (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT densityEpoxy (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT specificHeatCapacityEpoxy (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT specificHeatCapacityPyrolyzedGas (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT heatPyrolysis (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT pyroActivationEnergy (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT pyroReactionRate (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT pyroReactionTerms (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT blockingFactor (mcRandom|mcPdf|mcParametric)>
+<!ELEMENT blowingFactor (mcRandom|mcPdf|mcParametric)>
+
+
+<!-- sub elements of monteCarlo/fragments -->
+<!ELEMENT fragment (latitude?, longitude?, epoch?)>
+
+<!-- sub elements of monteCarlo/fragments/fragment -->
+<!ELEMENT epoch (mcRandom|mcPdf|mcParametric)> <!-- interpreted as seconds -->
+
+

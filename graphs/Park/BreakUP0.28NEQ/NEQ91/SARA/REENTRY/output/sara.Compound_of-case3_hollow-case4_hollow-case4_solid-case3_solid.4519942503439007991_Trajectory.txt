@@ -1,0 +1,26 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                      ---- DRAMA ( SESAM 2.1.5 ) ----
+#                                      ESA 2018 
+#
+#                              trajectory history file
+#-------------------------------------------------------------------------------
+# Filename      : sara.Compound_of-case3_hollow-case4_hollow-case4_solid-case3_solid.4519942503439007991_Trajectory.txt
+# RunID         : sara
+# ObjectID      : 4519942503439007991
+# ObjectName    : Compound_of-case3_hollow-case4_hollow-case4_solid-case3_solid
+# Content       : This file contains the trajectory state data of the object,
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Time [s]  Altitude [km]  Lat [deg]  Lon [deg]  Velocity [km/s]   Downrange [km]       Drag       Lift       Side    Knudsen       Mach  Flight Path [deg]  Heading [deg]  Density [kg/m^2]
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   876.550          90.985     22.921     54.319            7.403         6401.770      0.627      0.000      0.000    0.03264   27.01653           -0.32926       75.62685         2.867e-06 

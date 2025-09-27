@@ -1,0 +1,469 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#                                                                               
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#               Detailed results log file -PySara.RiskResults.dat-
+#                           runID: PySara            
+#                   run date+time: 2025-05-21T16-27-46.552                          
+#_______________________________________________________________________________
+# 
+#
+# Run configuration
+# -----------------
+#
+# Run identifier
+PySara
+# Re-entry type
+controlled
+# Uncontrolled re-entry methodology
+latitudeBandLimited
+# World population growth scenario
+MEDIUM-VARIANT
+# Casualty risk threshold /J 
+15.0
+# Orbit inclination / deg
+90.0
+#
+#
+# Total risk of the run configuration
+# -----------------------------------
+#
+# Total casualty area / m^2
+18.07704361172923
+# Total impact mass / kg
+188.61418106663626
+# Total casualty probability under the 1D projection /-
+3.1398262585569103E-4
+# Total casualty probability under the 2D projection /-
+0.0
+# Total fatality probability under the 1D projection /-
+2.909518651836862E-4
+# Total fatality probability under the 2D projection /-
+0.0
+# Total number of unique fragments /-
+11
+# Total number of fragments /-
+11
+# Total number of unique floating fragments /-
+11
+# Total number of floating fragments /-
+11
+#
+# Individual fragment risk of the run configuration
+# -------------------------------------------------
+#
+# Unique ID
+63a9fa44-0b0d-449a-a8fd-6346d2c3bd5a
+# Connected-to IDs
+63a9fa44-0b0d-449a-a8fd-6346d2c3bd5a
+# Name
+RWheel1
+# Quantity
+1
+# Mass / kg 
+2.29690157976607
+# Velocity / m/s 
+38.89770345435439
+# Latitude / deg 
+-7.617879144117509
+# Longitude / deg 
+-121.82769776808422
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:17:43.123
+# Average geometric cross section / m^2 
+0.05572871208202933
+# Average casualty area / m^2 
+0.6990118661842848
+# Impact energy / J 
+1737.6420306763744
+# Casualty probability 1D / - 
+1.2665084235610159E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+1.2665084235610159E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+245acbc8-c195-45d0-a214-9898b52d5b5c
+# Connected-to IDs
+245acbc8-c195-45d0-a214-9898b52d5b5c
+# Name
+RWheel2
+# Quantity
+1
+# Mass / kg 
+2.29690157976607
+# Velocity / m/s 
+38.89770345435439
+# Latitude / deg 
+-7.617879144117509
+# Longitude / deg 
+-121.82769776808422
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:17:43.123
+# Average geometric cross section / m^2 
+0.05572871208202933
+# Average casualty area / m^2 
+0.6990118661842848
+# Impact energy / J 
+1737.6420306763744
+# Casualty probability 1D / - 
+1.2665084235610159E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+1.2665084235610159E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+ec3a03ef-52c3-4bf8-b3f8-21ab0025a724
+# Connected-to IDs
+ec3a03ef-52c3-4bf8-b3f8-21ab0025a724
+# Name
+RWheel3
+# Quantity
+1
+# Mass / kg 
+2.29690157976607
+# Velocity / m/s 
+38.89770345435439
+# Latitude / deg 
+-7.617879144117509
+# Longitude / deg 
+-121.82769776808422
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:17:43.123
+# Average geometric cross section / m^2 
+0.05572871208202933
+# Average casualty area / m^2 
+0.6990118661842848
+# Impact energy / J 
+1737.6420306763744
+# Casualty probability 1D / - 
+1.2665084235610159E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+1.2665084235610159E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+803466b8-4d34-45ca-a949-95be2cbeeca4
+# Connected-to IDs
+803466b8-4d34-45ca-a949-95be2cbeeca4
+# Name
+CentCone
+# Quantity
+1
+# Mass / kg 
+45.868195581153394
+# Velocity / m/s 
+36.84227618854703
+# Latitude / deg 
+-8.017373009808685
+# Longitude / deg 
+-125.02035892463286
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:17:20.740
+# Average geometric cross section / m^2 
+1.2395467974003886
+# Average casualty area / m^2 
+2.9355660293939096
+# Impact energy / J 
+31129.67365691285
+# Casualty probability 1D / - 
+4.846043221914839E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+4.846043221914839E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+2077e753-66d3-4062-a24a-191209e524a2
+# Connected-to IDs
+2077e753-66d3-4062-a24a-191209e524a2
+# Name
+Tank1
+# Quantity
+1
+# Mass / kg 
+21.68
+# Velocity / m/s 
+59.97832189098296
+# Latitude / deg 
+-7.5874252383137355
+# Longitude / deg 
+-121.60300191129258
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:15:27.119
+# Average geometric cross section / m^2 
+0.22393272434788047
+# Average casualty area / m^2 
+1.151791089665279
+# Impact energy / J 
+38995.80620994469
+# Casualty probability 1D / - 
+2.0530644364950285E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+2.0530644364950285E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+9ab566e6-cbfa-4650-9499-20d42b908d4b
+# Connected-to IDs
+9ab566e6-cbfa-4650-9499-20d42b908d4b
+# Name
+Tank2
+# Quantity
+1
+# Mass / kg 
+21.68
+# Velocity / m/s 
+59.97832189098296
+# Latitude / deg 
+-7.5874252383137355
+# Longitude / deg 
+-121.60300191129258
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:15:27.119
+# Average geometric cross section / m^2 
+0.22393272434788047
+# Average casualty area / m^2 
+1.151791089665279
+# Impact energy / J 
+38995.80620994469
+# Casualty probability 1D / - 
+2.0530644364950285E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+2.0530644364950285E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+5d20f362-2aeb-42cd-82b8-eb160b897dfc
+# Connected-to IDs
+5d20f362-2aeb-42cd-82b8-eb160b897dfc
+# Name
+Tank3
+# Quantity
+1
+# Mass / kg 
+21.68
+# Velocity / m/s 
+59.97832189098296
+# Latitude / deg 
+-7.5874252383137355
+# Longitude / deg 
+-121.60300191129258
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:15:27.119
+# Average geometric cross section / m^2 
+0.22393272434788047
+# Average casualty area / m^2 
+1.151791089665279
+# Impact energy / J 
+38995.80620994469
+# Casualty probability 1D / - 
+2.0530644364950285E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+2.0530644364950285E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+49f93873-d051-4fd8-bdbd-ed12c1f5b90a
+# Connected-to IDs
+49f93873-d051-4fd8-bdbd-ed12c1f5b90a
+# Name
+Tank4
+# Quantity
+1
+# Mass / kg 
+21.68
+# Velocity / m/s 
+59.97832189098296
+# Latitude / deg 
+-7.5874252383137355
+# Longitude / deg 
+-121.60300191129258
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:15:27.119
+# Average geometric cross section / m^2 
+0.22393272434788047
+# Average casualty area / m^2 
+1.151791089665279
+# Impact energy / J 
+38995.80620994469
+# Casualty probability 1D / - 
+2.0530644364950285E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+2.0530644364950285E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+6ec8e3b0-bee6-4571-99e4-bf462d5ab672
+# Connected-to IDs
+6ec8e3b0-bee6-4571-99e4-bf462d5ab672
+# Name
+IASI
+# Quantity
+1
+# Mass / kg 
+28.124729413911226
+# Velocity / m/s 
+28.94940283674521
+# Latitude / deg 
+-7.620625548706634
+# Longitude / deg 
+-121.8398803050924
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:20:01.974
+# Average geometric cross section / m^2 
+1.198369
+# Average casualty area / m^2 
+2.87200949876669
+# Impact energy / J 
+11785.21680498496
+# Casualty probability 1D / - 
+5.2036659157032215E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+5.2036659157032215E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+baa15345-588e-44f0-ae31-4e212aae8951
+# Connected-to IDs
+baa15345-588e-44f0-ae31-4e212aae8951
+# Name
+Cylind1
+# Quantity
+1
+# Mass / kg 
+18.52952535368214
+# Velocity / m/s 
+24.174084040166196
+# Latitude / deg 
+-7.6636330940139255
+# Longitude / deg 
+-122.16640465876134
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:21:45.356
+# Average geometric cross section / m^2 
+1.141937513653354
+# Average casualty area / m^2 
+2.7842752303492437
+# Impact energy / J 
+5414.2007441000815
+# Casualty probability 1D / - 
+5.1945139085638085E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+5.1945139085638085E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+605f092a-c977-44bd-953f-0bb289c43b86
+# Connected-to IDs
+605f092a-c977-44bd-953f-0bb289c43b86
+# Name
+Cylind2
+# Quantity
+1
+# Mass / kg 
+2.481025978591236
+# Velocity / m/s 
+8.781559445043994
+# Latitude / deg 
+-8.032097294250248
+# Longitude / deg 
+-125.05080864774102
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T23:41:41.971
+# Average geometric cross section / m^2 
+1.1398357881681025
+# Average casualty area / m^2 
+2.7809928960054147
+# Impact energy / J 
+95.66313456857162
+# Casualty probability 1D / - 
+4.1466047323308235E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+1.84290084159892E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++

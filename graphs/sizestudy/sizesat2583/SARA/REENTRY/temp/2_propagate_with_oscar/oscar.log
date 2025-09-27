@@ -1,0 +1,72 @@
+Output file 'oscar.log' (unit =  77) OPENED.
+
+                 _/_/      _/_/_/    _/_/_/    _/_/    _/_/_/
+              _/    _/  _/        _/        _/    _/  _/    _/
+             _/    _/    _/_/    _/        _/_/_/_/  _/_/_/
+            _/    _/        _/  _/        _/    _/  _/    _/
+             _/_/    _/_/_/      _/_/_/  _/    _/  _/    _/
+
+   Debris Risk Assessment and Mitigation Analysis Tool Suite (v2.4.4)
+                      Orbital Spacecraft Active Removal
+ ___________________________ DRAMA - OSCAR ___________________________
+
+Output file 'oscar.tmp' (unit =  78) OPENED.
+File 'oscar.tmp'  (unit =  78) CLOSED.
+ - Started OSCAR run at [2025-02-28T15:34:02].
+Reading from configuration file 'oscar.cfg'.
+Input file 'oscar.cfg' (unit =  78) OPENED.
+File 'oscar.cfg'  (unit =  78) CLOSED.
+Input file 'input/oscar.inp' (unit =  78) OPENED.
+Reading from main user input file 'oscar.inp'.
+WARNING in subroutine rdinp:
+  Plot linestyle of critical altitude could not be read from input file 'oscar.inp'. Set to '2'.
+File 'input/oscar.inp'  (unit =  78) CLOSED.
+Output file 'oscar.tmp' (unit =  78) OPENED.
+File 'oscar.tmp'  (unit =  78) CLOSED.
+ - Preparing solar and geomagnetic activity scenario...
+Input file '/Applications/DRAMA-3.1.1/TOOLS/OSCAR/data/solcycle.lst' (unit =  78) OPENED.
+File '/Applications/DRAMA-3.1.1/TOOLS/OSCAR/data/solcycle.lst'  (unit =  78) CLOSED.
+REMARK in subroutine sogmact:
+  Using ESA solar and geomagnetic activity data for the specified scenario.
+Input file '/Applications/DRAMA-3.1.1/TOOLS/OSCAR/data/fap_day.dat' (unit =  78) OPENED.
+Input file '/Applications/DRAMA-3.1.1/TOOLS/OSCAR/data/fap_mon.dat' (unit =  79) OPENED.
+REMARK in subroutine sogmact:
+  Using ESA daily solar & geomagnetic activity data file from '2024-11-14'.
+REMARK in subroutine sogmact:
+  Using ESA monthly solar & geomagnetic activity data file from '2024-10-18'.
+REMARK in subroutine rdesa:
+  Solar and geomagnetic activity scenario can be covered by observed/available data. No forecast required.
+File '/Applications/DRAMA-3.1.1/TOOLS/OSCAR/data/fap_day.dat'  (unit =  78) CLOSED.
+File '/Applications/DRAMA-3.1.1/TOOLS/OSCAR/data/fap_mon.dat'  (unit =  79) CLOSED.
+Output file 'oscar.tmp' (unit =  78) OPENED.
+File 'oscar.tmp'  (unit =  78) CLOSED.
+ - Initializing FOCUS v2.6.2...
+ - Starting propagation...
+ - Running fine re-entry analysis...
+    * Geodetic altitude for final state: h =   124.97 km.
+ - Checking propagation exceptions...
+Output file 'oscar.tmp' (unit =  78) OPENED.
+File 'oscar.tmp'  (unit =  78) CLOSED.
+ - SDMG compliance check...
+Output file 'oscar.tmp' (unit =  78) OPENED.
+File 'oscar.tmp'  (unit =  78) CLOSED.
+ - Writing output files...
+Output file 'output/oscar.oop' (unit =  78) OPENED.
+Output file 'output/oscar.oev' (unit =  79) OPENED.
+Output file 'output/oscar.oad' (unit =  80) OPENED.
+File 'output/oscar.oev'  (unit =  79) CLOSED.
+File 'output/oscar.oad'  (unit =  80) CLOSED.
+File 'output/oscar.oop'  (unit =  78) CLOSED.
+Output file 'oscar.tmp' (unit =  78) OPENED.
+File 'oscar.tmp'  (unit =  78) CLOSED.
+Output file 'output/oscar.gnu' (unit =  78) OPENED.
+Output file 'output/oscar.alt.gnu' (unit =  79) OPENED.
+File 'output/oscar.alt.gnu'  (unit =  79) CLOSED.
+Output file 'output/oscar.adc.gnu' (unit =  79) OPENED.
+REMARK in subroutine plot:
+  Note that the requested plot 'Altitude vs. Declination' is only generated for objects in the geosynchronous region and will thus not be displayed.
+File 'output/oscar.adc.gnu'  (unit =  79) CLOSED.
+File 'output/oscar.gnu'  (unit =  78) CLOSED.
+Output file 'oscar.tmp' (unit =  78) OPENED.
+File 'oscar.tmp'  (unit =  78) CLOSED.
+OSCAR finished nominally at [2025-02-28T15:34:02]. Elapsed user time: 0.360 s.

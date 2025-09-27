@@ -1,0 +1,122 @@
+# =====<ESA/DRAMA>=================================================================================
+#
+#      _/_/_/_/    _/_/_/    _/_/                _/_/_/    _/_/_/      _/_/    _/      _/    _/_/
+#     _/        _/        _/    _/              _/    _/  _/    _/  _/    _/  _/_/  _/_/  _/    _/
+#    _/_/_/      _/_/    _/_/_/_/  _/_/_/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/  _/  _/  _/_/_/_/
+#   _/              _/  _/    _/              _/    _/  _/    _/  _/    _/  _/      _/  _/    _/
+#  _/_/_/_/  _/_/_/    _/    _/              _/_/_/    _/    _/  _/    _/  _/      _/  _/    _/
+#
+# =================================================================================================
+#
+# MIDAS (MASTER-based Impact Flux and Damage Assessment Software) Input File
+# [v3.1.0, 02/2021]
+#
+# =================================================================================================
+#
+# 1) Basic Settings
+#
+# --------------------------------------:----------------------------------------------------------
+#
+# Begin and end of analysis time interval                                       
+#
+  2016 11 01 00   -(yyyy mm dd hh)- Begin 
+  2016 11 01 00   -(yyyy mm dd hh)- End 
+#
+# Run identifier (CHAR*15)
+#
+midas           
+#
+# Comment lines (CHAR*80)
+DRAMA
+MASTER-based Impact Flux and Damage Assessment
+# 
+# Target Orbit
+#
+ 7158.00         -(km)-             semi-major Axis
+ 0.00100         -(-)-              eccentricity
+ 98.5000         -(deg)-            inclination
+  0.0000         -(deg)-            right asc. of asc. node
+  0.0000         -(deg)-            argument of perigee
+# 
+# Satellite properties (if propagation is done, which happens when Begin and end date are different)
+# 
+  100.00         -(kg)-             spacecraft mass
+   1.000         -(m**2)-           cross-sectional area
+     2.2         -(-)-              drag coefficient
+     1.3         -(-)-              solar radiation pressure coefficient
+# 
+# Analysis size/mass thresholds
+# 
+ 1.00000e-04 m   -(value (m,kg))-   Lower threshold
+ 1.00000e+02 m   -(value (m,kg))-   Lower threshold
+#
+# =================================================================================================
+#
+# 2) Source Settings
+#
+# -------------------------------------------------------------------------------------------------
+#
+# Source switches (0 = off, 1 = on)                                                  
+#
+ 0               -(0,1)-            Explosion Fragments
+ 0               -(0,1)-            Collision Fragments
+ 0               -(0,1)-            Launch/Mission related objects
+ 0               -(0,1)-            NaK-droplets
+ 0               -(0,1)-            SRM slag
+ 0               -(0,1)-            SRM Al2O3 dust
+ 0               -(0,1)-            Paint flakes
+ 0               -(0,1)-            Ejecta
+ 0               -(0,1)-            MLI
+ 1               -(0,1)-            Condensed population
+#
+# Background meteoroid model consideration switch
+#
+ 2               -(0:2)-            0 = no background meteoroids
+#                                   1 = background meteoroids (Divine-Staubach)
+#                                   2 = background meteoroids (Gruen)
+#
+# Background meteoroid population switches for Divine-Staubach (0 = off, 1 = on)
+#
+ 0               -(0,1)-            Core population
+ 0               -(0,1)-            Asteroidal population
+ 0               -(0,1)-            A population
+ 0               -(0,1)-            B population
+ 0               -(0,1)-            C population
+#
+# Velocity distribution for Gruen meteoroid model
+#
+ 1               -(0,1)-            0 = Gruen (constant velocity 20 km/s)
+#                                   1 = Taylor distribution
+#
+# Annual meteoroid stream consideration switch                                  
+#
+  0               -(0:2)-            0 = no seasonal met. streams (averaging)
+#                                    1 = seasonal met. streams (Jenniskens)      
+#                                    2 = seasonal met. streams (Cour-Palais)     
+#
+# Switch for clouds -(0,1)- and cloud file identifier
+ 0 none      -((0,1) ccccc)-    Cloud 1
+ 0 none      -((0,1) ccccc)-    Cloud 2
+ 0 none      -((0,1) ccccc)-    Cloud 3
+ 0 none      -((0,1) ccccc)-    Cloud 4
+ 0 none      -((0,1) ccccc)-    Cloud 5
+#
+# =================================================================================================
+#
+# 3) Trackability settings
+#
+# =================================================================================================
+#
+# Radar (network) wavelength / m
+#
+    0.3
+#
+# Parameters for the radar equation in two branches (same as in ARES)
+#
+#   branch 1    branch 2
+#
+    0.32        0.700   ! reference diameter / m
+    2000.0      36000.0 ! reference altitude / km
+    2.0         -0.5    ! exponent
+#
+# ====================================================================================================

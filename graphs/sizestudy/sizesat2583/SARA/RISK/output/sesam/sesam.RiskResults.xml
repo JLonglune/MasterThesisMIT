@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<riskAnalysis>
+  <runID>sesam</runID>
+  <configurations>
+    <reentryType>controlled</reentryType>
+    <uncontrolledMethod>latitudeBandLimited</uncontrolledMethod>
+    <growthScenario>MEDIUM-VARIANT</growthScenario>
+    <casualtyThreshold>15.0</casualtyThreshold>
+    <inclinationAngle>90.0</inclinationAngle>
+  </configurations>
+  <risk>
+    <totalRiskResults>
+      <totalCasualty1D>5.947210657442081E-5</totalCasualty1D>
+      <totalCasualty2D>0.0</totalCasualty2D>
+      <totalFatality1D>5.947210657442081E-5</totalFatality1D>
+      <totalFatality2D>0.0</totalFatality2D>
+      <totalCasualtyArea>2.2088704739407574</totalCasualtyArea>
+      <totalImpactMass>7.104286761280864</totalImpactMass>
+    </totalRiskResults>
+    <fragments>
+      <totalNumberFloatingFragments>1</totalNumberFloatingFragments>
+      <fragment>
+        <uniqueID>301e11b4-739c-4efc-9900-6d50b955353b</uniqueID>
+        <objects>
+          <uniqueID>301e11b4-739c-4efc-9900-6d50b955353b</uniqueID>
+        </objects>
+        <name>body</name>
+        <quantity>1</quantity>
+        <mass>7.104286761280864</mass>
+        <velocity>17.909723833504415</velocity>
+        <latitude>10.270340547088601</latitude>
+        <longitude>-14.692104944830884</longitude>
+        <country>None</country>
+        <epoch>2016-11-06T01:49:11.712</epoch>
+        <crossSectionArea>0.7853981633974483</crossSectionArea>
+        <isFloating>true</isFloating>
+        <casualtyArea>2.2088704739407574</casualtyArea>
+        <impactEnergy>1139.379144595848</impactEnergy>
+        <casualty1D>5.947210657442437E-5</casualty1D>
+        <casualty2D>0.0</casualty2D>
+        <fatality1D>5.947210657442437E-5</fatality1D>
+        <fatality2D>0.0</fatality2D>
+      </fragment>
+    </fragments>
+  </risk>
+</riskAnalysis>

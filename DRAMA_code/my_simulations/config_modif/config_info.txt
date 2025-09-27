@@ -1,0 +1,93 @@
+***config (dict or list)***
+
+The (parametric) SARA run configuration. If a dictionary is provided it must be of the following format 
+(lists are used for parametric analyses):
+{
+    "runID": str or list,
+    
+    "comment1": str or list,
+    "comment2": str or list,
+    "beginDate": datetime or list,
+    "runMode": str or list,
+    "monteCarlo": bool or list,
+    "reentryType": str or list,
+    "uncontrolledMethod": str or list,
+    "growthScenario": str or list,
+    "casualtyThreshold": float or list,
+    "inclinationAngle": float or list,
+    "dataPath": str or Path or list,
+    "coordinateSystem": str or list,
+    "initialDate": datetime or list,
+    "element1": float or list,
+    "element2": float or list,
+    "element3": float or list,
+    "element4": float or list,
+    "element5": float or list,
+    "element6": float or list,
+    "assumedCrossSection": float or list,
+    "dragCoefficient": float or list,
+    "reflectivityCoefficient": float or list,
+    "attitude": str or list,
+    "attack": float or list,
+    "sideSlip": float or list,
+    "bank": float or list,
+    "fragmentsAttitudeAfterBreakup": str or list,
+    "globalSpacecraftTemperature": float or list,
+    "atmosphericModel": str or Path or list,
+    "voxelatorMode": int or list,
+    "voxelatorResolutionLength": float or list,
+    "densityScalingFactor": float or list,
+    "dynamicEnvironment": bool or list,
+    "useWind": bool or list,
+    "solarActivityFromFile": bool or list,
+    "ap": float or list,
+    "f107a": float or list,
+    "useEnvironmentCSV": bool or list,
+    "energyThreshold": float or list,
+    "plotVisibilityMaps": bool or list,
+    "plotObjectTrajectories": bool or list,
+    "propagationWithOscar": bool or list,
+}
+
+RUN make config to see all the possible values and the default values.
+
+
+based on keplerian coordinates 
+element1 → Semi-major axis (a), in kilometers
+element2 → Eccentricity (e), unitless
+element3 → Inclination (i), in degrees
+element4 → Right ascension of the ascending node (Ω), in degrees
+element5 → Argument of perigee (ω), in degrees
+element6 → True anomaly (ν), in degrees
+
+
+Several factors together determine the latitude and longitude at which a satellite or fragment actually re-enters (and where it ultimately impacts or burns up):
+
+Initial orbital elements:
+    Inclination (element3) sets the maximum latitude band. For example, a 50°-inclined orbit can only re-enter between 50° S and 50° N.
+    RAAN (element4) & argument of perigee (element5) combined with the re-entry date/time determine where the ground track crosses the equator and where perigee/apogee occur relative to the rotating Earth.
+    True anomaly at break-up (element6) fixes the precise orbital position where the object begins its rapid descent.
+Earth’s rotation
+As the satellite decelerates in the upper atmosphere, the Earth continues to turn beneath it. A slower, more gradual descent (due to low drag or low atmospheric density) means the ground impact point shifts eastward.
+Atmospheric drag and density
+    Drag coefficient & cross-section: higher drag or larger area causes earlier slowing and a shorter longitude path before burn-up or impact.
+    Atmospheric model & density scaling (solar cycle, geomagnetic activity, winds): denser atmosphere—whether from high solar activity (F10.7, ap indices) or strong upper-atmospheric winds—accelerates deceleration and alters where re-entry “fires” occur.
+Space-weather and winds
+    Solar indices (e.g. ap, F10.7) change neutral density at re-entry altitude.
+    Upper-atmosphere winds can drift fragments laterally, especially near peak aerodynamic heating.
+Fragmentation behavior
+    Break-up altitude & grid resolution (voxelatorMode, resolution): finer fragmentation spreads pieces over a wider ground track in lat/long.
+    Fragment attitude after break-up: some pieces may have shapes or orientations that generate more lift or drag, shifting their trajectories.
+Time of day (orbital phase relative to Earth rotation)
+Even the same orbit will map to very different ground tracks depending on whether re-entry occurs at local dawn, midday, or midnight, because the launch of the ascending/descending nodes relative to the sun shifts with each orbit.
+
+
+In practice, one conducts a Monte-Carlo re-entry simulation, varying:
+
+    Small uncertainties on the six Keplerian elements (a, e, i, Ω, ω, ν)
+    Drag coefficient and cross-section
+    Solar and geomagnetic indices (density)
+    Exact breakup timing
+
+
+NOTE:  the break up altitude is in the dpz file.

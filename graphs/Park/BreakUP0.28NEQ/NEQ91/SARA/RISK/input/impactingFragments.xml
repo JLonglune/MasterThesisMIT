@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragments>
+	<fragment>
+		<name>case3_hollow</name>
+		<objects>
+			<uniqueID>8ef60be4-b279-4819-a3aa-6de0e10d8ae7</uniqueID>
+		</objects>
+		<epoch>2016-11-01T12:24:59.063</epoch>
+		<mass unit="kg">1.1289000000000000e+02</mass>
+		<velocity unit="m/s">1.5182122122872624e+02</velocity>
+		<latitude unit="deg">2.6431123524388511e+01</latitude>
+		<longitude unit="deg">8.7769231138317309e+01</longitude>
+		<crossSectionArea unit="m2">1.9634954084936207e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>case4_hollow</name>
+		<objects>
+			<uniqueID>e31cb76b-34e6-4852-9f69-92ea8464d372</uniqueID>
+		</objects>
+		<epoch>2016-11-01T12:24:40.245</epoch>
+		<mass unit="kg">3.7510797937715786e+01</mass>
+		<velocity unit="m/s">8.3767083836516079e+01</velocity>
+		<latitude unit="deg">2.6420756322277736e+01</latitude>
+		<longitude unit="deg">8.0720866828781070e+01</longitude>
+		<crossSectionArea unit="m2">1.9634954084936207e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>case4_solid</name>
+		<objects>
+			<uniqueID>7f7f274b-035d-4fd6-b84f-925bb3aa22a8</uniqueID>
+		</objects>
+		<epoch>2016-11-01T12:24:54.745</epoch>
+		<mass unit="kg">9.5566427937344386e+01</mass>
+		<velocity unit="m/s">1.3852055627849674e+02</velocity>
+		<latitude unit="deg">2.6451980827921496e+01</latitude>
+		<longitude unit="deg">8.6835681617207115e+01</longitude>
+		<crossSectionArea unit="m2">1.9634954084936207e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>case3_solid</name>
+		<objects>
+			<uniqueID>301c2599-a612-4651-8c17-65d0288fcca2</uniqueID>
+		</objects>
+		<epoch>2016-11-01T12:25:52.117</epoch>
+		<mass unit="kg">2.8798000000000002e+02</mass>
+		<velocity unit="m/s">2.5291645815628732e+02</velocity>
+		<latitude unit="deg">2.6090299988788857e+01</latitude>
+		<longitude unit="deg">9.4367555054389072e+01</longitude>
+		<crossSectionArea unit="m2">1.9634954084936207e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+</fragments>

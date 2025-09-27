@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<Configurations>
+  <Configuration>
+    <Parameter name="inputMethod">normal</Parameter>
+    <Parameter name="runMode">reentry-risk</Parameter>
+    <Parameter name="monteCarlo">False</Parameter>
+    <Parameter name="reentryType">uncontrolled</Parameter>
+    <Parameter name="uncontrolledMethod">fullOrbit</Parameter>
+    <Parameter name="growthScenario">MEDIUM-VARIANT</Parameter>
+    <Parameter name="coordinateSystem">keplerian</Parameter>
+    <Parameter name="attitude">nadir-pointing</Parameter>
+    <Parameter name="fragmentsAttitudeAfterBreakup">tumbling</Parameter>
+    <Parameter name="dynamicEnvironment">True</Parameter>
+    <Parameter name="useWind">True</Parameter>
+    <Parameter name="solarActivityFromFile">True</Parameter>
+    <Parameter name="useEnvironmentCSV">False</Parameter>
+    <Parameter name="plotVisibilityMaps">False</Parameter>
+    <Parameter name="plotObjectTrajectories">False</Parameter>
+    <Parameter name="propagationWithOscar">True</Parameter>
+    <Parameter name="casualtyThreshold">15.0</Parameter>
+    <Parameter name="element1">6578.0</Parameter>
+    <Parameter name="element2">0.001</Parameter>
+    <Parameter name="element3">50.0</Parameter>
+    <Parameter name="element4">0.0</Parameter>
+    <Parameter name="element5">0.0</Parameter>
+    <Parameter name="element6">0.0</Parameter>
+    <Parameter name="assumedCrossSection">10.0</Parameter>
+    <Parameter name="dragCoefficient">2.2</Parameter>
+    <Parameter name="reflectivityCoefficient">1.3</Parameter>
+    <Parameter name="voxelatorResolutionLength">0.1</Parameter>
+    <Parameter name="energyThreshold">15.0</Parameter>
+    <Parameter name="densityScalingFactor">1.0</Parameter>
+    <Parameter name="ap">15.0</Parameter>
+    <Parameter name="f107a">120.0</Parameter>
+  </Configuration>
+
+  <Configuration>
+    <Parameter name="inputMethod">normal</Parameter>
+    <Parameter name="runMode">reentry-risk</Parameter>
+    <Parameter name="monteCarlo">False</Parameter>
+    <Parameter name="reentryType">uncontrolled</Parameter>
+    <Parameter name="uncontrolledMethod">fullOrbit</Parameter>
+    <Parameter name="growthScenario">MEDIUM-VARIANT</Parameter>
+    <Parameter name="coordinateSystem">keplerian</Parameter>
+    <Parameter name="attitude">nadir-pointing</Parameter>
+    <Parameter name="fragmentsAttitudeAfterBreakup">tumbling</Parameter>
+    <Parameter name="dynamicEnvironment">True</Parameter>
+    <Parameter name="useWind">True</Parameter>
+    <Parameter name="solarActivityFromFile">True</Parameter>
+    <Parameter name="useEnvironmentCSV">False</Parameter>
+    <Parameter name="plotVisibilityMaps">False</Parameter>
+    <Parameter name="plotObjectTrajectories">False</Parameter>
+    <Parameter name="propagationWithOscar">True</Parameter>
+    <Parameter name="casualtyThreshold">15.0</Parameter>
+    <Parameter name="element1">6578.0</Parameter>
+    <Parameter name="element2">0.001</Parameter>
+    <Parameter name="element3">50.0</Parameter>
+    <Parameter name="element4">0.0</Parameter>
+    <Parameter name="element5">90.0</Parameter>
+    <Parameter name="element6">0.0</Parameter>
+    <Parameter name="assumedCrossSection">10.0</Parameter>
+    <Parameter name="dragCoefficient">2.2</Parameter>
+    <Parameter name="reflectivityCoefficient">1.3</Parameter>
+    <Parameter name="voxelatorResolutionLength">0.1</Parameter>
+    <Parameter name="energyThreshold">15.0</Parameter>
+    <Parameter name="densityScalingFactor">1.0</Parameter>
+    <Parameter name="ap">15.0</Parameter>
+    <Parameter name="f107a">120.0</Parameter>
+  </Configuration>
+
+</Configurations>

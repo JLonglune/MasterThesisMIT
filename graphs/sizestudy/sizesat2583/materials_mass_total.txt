@@ -1,0 +1,9 @@
+drama-AA7075: 805.16 kg
+drama-SolarPanel-Mat: 60.00 kg
+drama-HC-AA7075: 906.40 kg
+drama-El-Mat: 202.50 kg
+drama-A316: 57.30 kg
+drama-Copper: 4.50 kg
+drama-CFRP: 132.00 kg
+drama-TiAl6v4: 224.00 kg
+drama-Bat-NiCd: 191.30 kg

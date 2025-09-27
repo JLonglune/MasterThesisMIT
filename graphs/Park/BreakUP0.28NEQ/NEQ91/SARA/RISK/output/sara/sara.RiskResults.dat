@@ -1,0 +1,210 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#                                                                               
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#               Detailed results log file -sara.RiskResults.dat-
+#                           runID: sara            
+#                   run date+time: 2025-04-07T09-32-12.843                          
+#_______________________________________________________________________________
+# 
+#
+# Run configuration
+# -----------------
+#
+# Run identifier
+sara
+# Re-entry type
+controlled
+# Uncontrolled re-entry methodology
+latitudeBandLimited
+# World population growth scenario
+MEDIUM-VARIANT
+# Casualty risk threshold /J 
+15.0
+# Orbit inclination / deg
+90.0
+#
+#
+# Total risk of the run configuration
+# -----------------------------------
+#
+# Total casualty area / m^2
+4.352342784484067
+# Total impact mass / kg
+533.9472258750602
+# Total casualty probability under the 1D projection /-
+2.875080079346448E-4
+# Total casualty probability under the 2D projection /-
+0.001135093239734597
+# Total fatality probability under the 1D projection /-
+2.875080079346448E-4
+# Total fatality probability under the 2D projection /-
+0.001135093239734597
+# Total number of unique fragments /-
+4
+# Total number of fragments /-
+4
+# Total number of unique floating fragments /-
+1
+# Total number of floating fragments /-
+1
+#
+# Individual fragment risk of the run configuration
+# -------------------------------------------------
+#
+# Unique ID
+8ef60be4-b279-4819-a3aa-6de0e10d8ae7
+# Connected-to IDs
+8ef60be4-b279-4819-a3aa-6de0e10d8ae7
+# Name
+case3_hollow
+# Quantity
+1
+# Mass / kg 
+112.89
+# Velocity / m/s 
+151.82122122872624
+# Latitude / deg 
+26.43112352438851
+# Longitude / deg 
+87.76923113831731
+# Country 
+Nepal
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T12:24:59.063
+# Average geometric cross section / m^2 
+0.19634954084936207
+# Average casualty area / m^2 
+1.0880856961210168
+# Impact energy / J 
+1301039.369092228
+# Casualty probability 1D / - 
+7.10837219090837E-5
+# Casualty probability 2D / - 
+2.7828669485961265E-4
+# Fatality probability 1D / - 
+7.10837219090837E-5
+# Fatality probability 2D / - 
+2.7828669485961265E-4
+# Would the object float / P 
+false
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+e31cb76b-34e6-4852-9f69-92ea8464d372
+# Connected-to IDs
+e31cb76b-34e6-4852-9f69-92ea8464d372
+# Name
+case4_hollow
+# Quantity
+1
+# Mass / kg 
+37.510797937715786
+# Velocity / m/s 
+83.76708383651608
+# Latitude / deg 
+26.420756322277736
+# Longitude / deg 
+80.72086682878107
+# Country 
+India
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T12:24:40.245
+# Average geometric cross section / m^2 
+0.19634954084936207
+# Average casualty area / m^2 
+1.0880856961210168
+# Impact energy / J 
+131605.2154273459
+# Casualty probability 1D / - 
+7.139851319825651E-5
+# Casualty probability 2D / - 
+7.334381280235787E-4
+# Fatality probability 1D / - 
+7.139851319825651E-5
+# Fatality probability 2D / - 
+7.334381280235787E-4
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+7f7f274b-035d-4fd6-b84f-925bb3aa22a8
+# Connected-to IDs
+7f7f274b-035d-4fd6-b84f-925bb3aa22a8
+# Name
+case4_solid
+# Quantity
+1
+# Mass / kg 
+95.56642793734439
+# Velocity / m/s 
+138.52055627849674
+# Latitude / deg 
+26.451980827921496
+# Longitude / deg 
+86.83568161720711
+# Country 
+Nepal
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T12:24:54.745
+# Average geometric cross section / m^2 
+0.19634954084936207
+# Average casualty area / m^2 
+1.0880856961210168
+# Impact energy / J 
+916861.6582217702
+# Casualty probability 1D / - 
+6.911056163246492E-5
+# Casualty probability 2D / - 
+4.555404525145397E-5
+# Fatality probability 1D / - 
+6.911056163246492E-5
+# Fatality probability 2D / - 
+4.555404525145397E-5
+# Would the object float / P 
+false
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+301c2599-a612-4651-8c17-65d0288fcca2
+# Connected-to IDs
+301c2599-a612-4651-8c17-65d0288fcca2
+# Name
+case3_solid
+# Quantity
+1
+# Mass / kg 
+287.98
+# Velocity / m/s 
+252.91645815628732
+# Latitude / deg 
+26.090299988788857
+# Longitude / deg 
+94.36755505438907
+# Country 
+India
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-01T12:25:52.117
+# Average geometric cross section / m^2 
+0.19634954084936207
+# Average casualty area / m^2 
+1.0880856961210168
+# Impact energy / J 
+9210570.144762166
+# Casualty probability 1D / - 
+7.59462016793854E-5
+# Casualty probability 2D / - 
+7.814716032282703E-5
+# Fatality probability 1D / - 
+7.59462016793854E-5
+# Fatality probability 2D / - 
+7.814716032282703E-5
+# Would the object float / P 
+false
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++

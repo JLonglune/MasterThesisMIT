@@ -1,0 +1,24 @@
+---
+message no:     1
+type: warning
+title: ARES input
+location: [m_AresInput] loadInputFromFile
+message: 
+EMR switch set to off                                       
+User-input EMR is ignored                                   
+---
+message no:     2
+type: warning
+title: MASTER Execution information
+location: [m_fluxes] obtainFluxNew
+message: 
+MASTER issued remarks.                                      
+                                                            
+---
+message no:     3
+type: warning
+title: Complete model had to be used
+location: [m_collProb] COLL_PROB_BPLANE
+message: 
+The complete model for det. coll. prob computation was used 
+Message repeated      3978 times                                                                                                                                                                        

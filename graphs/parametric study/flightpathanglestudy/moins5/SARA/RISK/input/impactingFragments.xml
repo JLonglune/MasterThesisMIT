@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragments>
+	<fragment>
+		<name>new_object</name>
+		<objects>
+			<uniqueID>40fcaa52-cb5f-43dd-a085-849770dd754d</uniqueID>
+		</objects>
+		<epoch>2026-11-01T12:04:40.845</epoch>
+		<mass unit="kg">4.2451078303659649e+01</mass>
+		<velocity unit="m/s">1.1291837530419072e+02</velocity>
+		<latitude unit="deg">7.5203375210075567e+00</latitude>
+		<longitude unit="deg">8.5456313529709064e+01</longitude>
+		<crossSectionArea unit="m2">1.2566370614359174e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+</fragments>

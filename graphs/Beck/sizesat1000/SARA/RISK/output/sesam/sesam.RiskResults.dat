@@ -1,0 +1,99 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#                                                                               
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#               Detailed results log file -sesam.RiskResults.dat-
+#                           runID: sesam            
+#                   run date+time: 2025-02-20T14-11-39.950                          
+#_______________________________________________________________________________
+# 
+#
+# Run configuration
+# -----------------
+#
+# Run identifier
+sesam
+# Re-entry type
+controlled
+# Uncontrolled re-entry methodology
+latitudeBandLimited
+# World population growth scenario
+MEDIUM-VARIANT
+# Casualty risk threshold /J 
+15.0
+# Orbit inclination / deg
+90.0
+#
+#
+# Total risk of the run configuration
+# -----------------------------------
+#
+# Total casualty area / m^2
+2.2088704739407574
+# Total impact mass / kg
+7.104286761280864
+# Total casualty probability under the 1D projection /-
+5.947210657442081E-5
+# Total casualty probability under the 2D projection /-
+0.0
+# Total fatality probability under the 1D projection /-
+5.947210657442081E-5
+# Total fatality probability under the 2D projection /-
+0.0
+# Total number of unique fragments /-
+1
+# Total number of fragments /-
+1
+# Total number of unique floating fragments /-
+1
+# Total number of floating fragments /-
+1
+#
+# Individual fragment risk of the run configuration
+# -------------------------------------------------
+#
+# Unique ID
+301e11b4-739c-4efc-9900-6d50b955353b
+# Connected-to IDs
+301e11b4-739c-4efc-9900-6d50b955353b
+# Name
+body
+# Quantity
+1
+# Mass / kg 
+7.104286761280864
+# Velocity / m/s 
+17.909723833504415
+# Latitude / deg 
+10.270340547088601
+# Longitude / deg 
+-14.692104944830884
+# Country 
+None
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2016-11-06T01:49:11.712
+# Average geometric cross section / m^2 
+0.7853981633974483
+# Average casualty area / m^2 
+2.2088704739407574
+# Impact energy / J 
+1139.379144595848
+# Casualty probability 1D / - 
+5.947210657442437E-5
+# Casualty probability 2D / - 
+0.0
+# Fatality probability 1D / - 
+5.947210657442437E-5
+# Fatality probability 2D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++

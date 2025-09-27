@@ -1,0 +1,24 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                         ---- DRAMA ( SESAM r2.1.5 ) ----
+#                                      ESA 2018
+#
+#                         final state of demising objects
+#-------------------------------------------------------------------------------
+# Filename      : demiseData.txt
+# RunID         : sara
+# Content       : This file lists the demising objects,
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Time [s]  Altitude [km]  Lat [deg]  Lon [deg]  Velocity [km/s]   Downrange [km]       Drag       Lift       Side    Knudsen       Mach                UniqueID                  Name
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1645.550          90.342     24.034    109.454            7.388        11995.915      1.379      0.000      0.000    0.01215   26.97108  8cdd1025-8654-431b-96ab-e0b972a7ddd1  parent

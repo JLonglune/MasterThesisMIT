@@ -1,0 +1,157 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#   ---- DRAMA ( SESAM 2.1.5 ( built Nov 27 2024 11:35:36) ) ----
+#                                      ESA 2022
+#
+#                        execution log file -sesam.log-
+#                   run date+time: Fri Apr  4 21:52:34 2025
+
+info: Starting Sesam
+info: SESAM module initialising
+info: Using spacecraft mass calculated from objects.xml: 605.916000
+info: Using voxelator cache dir: /Users/jeannelonglune/default/SARA/VOXELCASH
+warning: oxideReactionProbability for drama-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-A316 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-A316_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Bat-Li < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Bat-NiCd < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Beryllium < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Carbon-Carbon < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Copper < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-El-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-CFRP-4ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-CFRP-8ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HiperCo < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Inconel718 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Inermet < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Invar < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Iron < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-SiC < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-SolarPanel-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-TiAl6v4 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Tungsten < 1.0E-5 or not found. Continuing without oxidation for this material.
+info: Fragment satelliteOne initializing
+info: Creation of object list
+info: Creating Object with UniqueID: 8cdd1025-8654-431b-96ab-e0b972a7ddd1
+info: Opening netCDF file /Applications/DRAMA-3.1.1/TOOLS/SARA/REENTRY/data/ATDB_BOX.nc for reading DONE.
+info: Using ATDB for BOX created with SAM on 20200306 from data created by Belstead Research Limited.
+info: Included new object 'parent' to fragment list
+info: Creating Object with UniqueID: 8ef60be4-b279-4819-a3aa-6de0e10d8ae7
+info: Opening netCDF file /Applications/DRAMA-3.1.1/TOOLS/SARA/REENTRY/data/ATDB_SPHERE.nc for reading DONE.
+info: Using ATDB for SPHERE created with ATDB_converter r1933 on 20190411 from data created by Hyperschall Technologie Göttingen GmbH.
+info: Included new object 'case3_hollow' to fragment list
+info: Creating Object with UniqueID: e31cb76b-34e6-4852-9f69-92ea8464d372
+info: Included new object 'case4_hollow' to fragment list
+info: Creating Object with UniqueID: 301c2599-a612-4651-8c17-65d0288fcca2
+info: Included new object 'case3_solid' to fragment list
+info: Creating Object with UniqueID: 7f7f274b-035d-4fd6-b84f-925bb3aa22a8
+info: Included new object 'case4_solid' to fragment list
+info: Handling of inclusions
+info: inclusion with parent ID: 8cdd1025-8654-431b-96ab-e0b972a7ddd1
+info: childID: 8ef60be4-b279-4819-a3aa-6de0e10d8ae7
+info: childID: e31cb76b-34e6-4852-9f69-92ea8464d372
+info: childID: 301c2599-a612-4651-8c17-65d0288fcca2
+info: childID: 7f7f274b-035d-4fd6-b84f-925bb3aa22a8
+info: Setting-up break-up triggers
+info: Found breakUpTriggers for parent 8cdd1025-8654-431b-96ab-e0b972a7ddd1
+info: Setting breakUp altitude for parent 8cdd1025-8654-431b-96ab-e0b972a7ddd1 to 78000.000000
+info: Handling of connections
+info: Using spacecraft mass calculated from objects hierarchy: 605.916000
+info: Using computed cross section: 2.160000
+info: Using computed drag coefficient: 2.154165
+info: Testing for altitude above 139km with input State: system= 235102, epoch= 2016-11-01T12:00:00, elements= 122.000000, 0.000000, 0.000000, 7.410000, -0.280000, 28.000000
+info: Initial altitude below 139 km. Converting input for sesam.
+info: starting CstateConvertToHtgSesam with input State: system= 235102, epoch= 2016-11-01T12:00:00, elements= 122.000000, 0.000000, 0.000000, 7.410000, -0.280000, 28.000000
+info: Using compiled-in static environment.
+info: SESAM initialisation DONE.
+info: SESAM propagation started
+info: Starting propagation of Fragment with uniqueID 8cdd1025-8654-431b-96ab-e0b972a7ddd1.
+info: EVENT area 8cdd1025-8654-431b-96ab-e0b972a7ddd1 2.160000
+info: EVENT start 8cdd1025-8654-431b-96ab-e0b972a7ddd1 605.916000 2.160000 2016-11-01T12:00:00
+info: Object 8cdd1025-8654-431b-96ab-e0b972a7ddd1 demised.
+info: EVENT object 8cdd1025-8654-431b-96ab-e0b972a7ddd1 demise
+info: Object 8cdd1025-8654-431b-96ab-e0b972a7ddd1 reached end of life.
+info: ObjectTrajectory Written: sara.parent.8cdd1025-8654-431b-96ab-e0b972a7ddd1_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote sara.parent.8cdd1025-8654-431b-96ab-e0b972a7ddd1.gnu
+info: AeroThermalHistory Written: sara.parent.8cdd1025-8654-431b-96ab-e0b972a7ddd1_AeroThermalHistory.txt
+info: EVENT end 8cdd1025-8654-431b-96ab-e0b972a7ddd1 543.916000
+info: Adding 1 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 4519942503439007991.
+info: Using data read from file /Users/jeannelonglune/default/SARA/VOXELCASH/ShadingFactorMatrix_17326307505804773496.nc
+info: EVENT area 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 0.307515 0.785398 1.566164
+info: EVENT area e31cb76b-34e6-4852-9f69-92ea8464d372 0.000000 0.785398 0.000000
+info: EVENT area 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 0.000000 0.785398 0.000000
+info: EVENT area 301c2599-a612-4651-8c17-65d0288fcca2 0.000000 0.785398 0.000000
+info: EVENT start 4519942503439007991 543.916000 0.307515 2016-11-01T12:15:06
+info: EVENT connection 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 e31cb76b-34e6-4852-9f69-92ea8464d372 altitude 77981.063955
+info: ConnectionTo between 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 and e31cb76b-34e6-4852-9f69-92ea8464d372 broke up, because altitude (77981.063955) < breakUpAltitude (78000.100000)
+info: EVENT connection 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 altitude 77981.063955
+info: ConnectionTo between 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 and 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 broke up, because altitude (77981.063955) < breakUpAltitude (78000.100000)
+info: EVENT connection e31cb76b-34e6-4852-9f69-92ea8464d372 301c2599-a612-4651-8c17-65d0288fcca2 altitude 77981.063955
+info: ConnectionTo between e31cb76b-34e6-4852-9f69-92ea8464d372 and 301c2599-a612-4651-8c17-65d0288fcca2 broke up, because altitude (77981.063955) < breakUpAltitude (78000.100000)
+info: Compound 4519942503439007991 reached end of life because connection between 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 and e31cb76b-34e6-4852-9f69-92ea8464d372 reached end of life.
+info: ObjectTrajectory Written: sara.Compound_of-case3_hollow-case4_hollow-case4_solid-case3_solid.4519942503439007991_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote sara.Compound_of-case3_hollow-case4_hollow-case4_solid-case3_solid.4519942503439007991.gnu
+info: AeroThermalHistory Written: sara.case3_hollow.4519942503439007991_8ef60be4-b279-4819-a3aa-6de0e10d8ae7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: sara.case4_hollow.4519942503439007991_e31cb76b-34e6-4852-9f69-92ea8464d372_AeroThermalHistory.txt
+info: AeroThermalHistory Written: sara.case4_solid.4519942503439007991_7f7f274b-035d-4fd6-b84f-925bb3aa22a8_AeroThermalHistory.txt
+info: AeroThermalHistory Written: sara.case3_solid.4519942503439007991_301c2599-a612-4651-8c17-65d0288fcca2_AeroThermalHistory.txt
+info: EVENT end 4519942503439007991 541.061598
+info: Adding 4 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 8ef60be4-b279-4819-a3aa-6de0e10d8ae7.
+info: EVENT area 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 0.196350
+info: EVENT start 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 112.890000 0.196350 2016-11-01T12:18:34
+warning: The altitude is below the lowest value in the data. Therefore, the lowest altitude for which data are given is used (altitude = 0.000000 m).
+This message is shown only once.
+info: Fragment 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 reached end of life because of ground impact.
+info: Object 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 reached end of life.
+info: EVENT fragment 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 impact
+info: ObjectTrajectory Written: sara.case3_hollow.8ef60be4-b279-4819-a3aa-6de0e10d8ae7_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote sara.case3_hollow.8ef60be4-b279-4819-a3aa-6de0e10d8ae7.gnu
+info: AeroThermalHistory Written: sara.case3_hollow.8ef60be4-b279-4819-a3aa-6de0e10d8ae7_AeroThermalHistory.txt
+info: EVENT end 8ef60be4-b279-4819-a3aa-6de0e10d8ae7 112.890000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID e31cb76b-34e6-4852-9f69-92ea8464d372.
+info: EVENT area e31cb76b-34e6-4852-9f69-92ea8464d372 0.196350
+info: EVENT start e31cb76b-34e6-4852-9f69-92ea8464d372 40.271982 0.196350 2016-11-01T12:18:34
+info: Fragment e31cb76b-34e6-4852-9f69-92ea8464d372 reached end of life because of ground impact.
+info: Object e31cb76b-34e6-4852-9f69-92ea8464d372 reached end of life.
+info: EVENT fragment e31cb76b-34e6-4852-9f69-92ea8464d372 impact
+info: ObjectTrajectory Written: sara.case4_hollow.e31cb76b-34e6-4852-9f69-92ea8464d372_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote sara.case4_hollow.e31cb76b-34e6-4852-9f69-92ea8464d372.gnu
+info: AeroThermalHistory Written: sara.case4_hollow.e31cb76b-34e6-4852-9f69-92ea8464d372_AeroThermalHistory.txt
+info: EVENT end e31cb76b-34e6-4852-9f69-92ea8464d372 34.952156
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 7f7f274b-035d-4fd6-b84f-925bb3aa22a8.
+info: EVENT area 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 0.196350
+info: EVENT start 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 99.919615 0.196350 2016-11-01T12:18:34
+info: Fragment 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 reached end of life because of ground impact.
+info: Object 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 reached end of life.
+info: EVENT fragment 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 impact
+info: ObjectTrajectory Written: sara.case4_solid.7f7f274b-035d-4fd6-b84f-925bb3aa22a8_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote sara.case4_solid.7f7f274b-035d-4fd6-b84f-925bb3aa22a8.gnu
+info: AeroThermalHistory Written: sara.case4_solid.7f7f274b-035d-4fd6-b84f-925bb3aa22a8_AeroThermalHistory.txt
+info: EVENT end 7f7f274b-035d-4fd6-b84f-925bb3aa22a8 89.685398
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 301c2599-a612-4651-8c17-65d0288fcca2.
+info: EVENT area 301c2599-a612-4651-8c17-65d0288fcca2 0.196350
+info: EVENT start 301c2599-a612-4651-8c17-65d0288fcca2 287.980000 0.196350 2016-11-01T12:18:34
+info: Fragment 301c2599-a612-4651-8c17-65d0288fcca2 reached end of life because of ground impact.
+info: Object 301c2599-a612-4651-8c17-65d0288fcca2 reached end of life.
+info: EVENT fragment 301c2599-a612-4651-8c17-65d0288fcca2 impact
+info: ObjectTrajectory Written: sara.case3_solid.301c2599-a612-4651-8c17-65d0288fcca2_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote sara.case3_solid.301c2599-a612-4651-8c17-65d0288fcca2.gnu
+info: AeroThermalHistory Written: sara.case3_solid.301c2599-a612-4651-8c17-65d0288fcca2_AeroThermalHistory.txt
+info: EVENT end 301c2599-a612-4651-8c17-65d0288fcca2 287.980000
+info: Adding 0 new fragments to fragmentList.
+info: ImpactingFragmentXML::WriteXML Wrote sara.ImpactingFragments.xml
+info: GnuPlotGeneration::GenerateAllObjectsScript Wrote sara.gnu
+info: Propagation Successful

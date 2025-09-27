@@ -1,0 +1,24 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#																			   
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#                        execution log file -seram.log-  						   
+#                   run date+time: mar., juin 17 2025 19:57:08						   
+
+ - start reading path to data directory
+ - open input files
+ - input files read
+ - risk results calculated for uncontrolled re-entry from circular orbit
+ - Gnuplot Drivers for uncontrolled re-entry written into output directory
+ - RiskResults.xml written into output directory
+ - RiskResults.dat written into output directory
+-------------------------
+SERAM execution time [ms]: 1267

@@ -1,0 +1,1 @@
+sat_size.dpz run on default_configuration

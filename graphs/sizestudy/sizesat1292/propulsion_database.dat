@@ -1,0 +1,22 @@
+cp; Chemical; Cold Gas; N2, NH3, Freon, Helium; 60.000000;
+cp; Chemical; Solid Motor; Several Types; 290.000000;
+cp; Chemical; Monopropellant; H2O2, N2H4; 200.000000;
+cp; Chemical; Bipropellant 1; O2, RP-1; 350.000000;
+cp; Chemical; Bipropellant 2; O2, H2; 450.000000;
+cp; Chemical; Bipropellant 3; N2O4, MMH; 320.000000;
+cp; Chemical; Bipropellant 4; F2, N2H4; 425.000000;
+cp; Chemical; Bipropellant 5; OF2, B2H4; 430.000000;
+cp; Chemical; Bipropellant 6; CIF5, N2H4; 350.000000;
+cp; Chemical; Dual Mode; N2O4/ N2H4; 330.000000;
+cp; Chemical; Water Electrolysis; H2O -> H2 and O2; 360.000000;
+cp; Chemical; Hybrid; O2, Rubber; 225.000000;
+ep; Electrostatic; Ion 1 (T5); Xenon; 3248.000000; 18.000000; 15000.000000
+ep; Electrostatic; Ion 2 (Muses-C); Xenon; 2920.000000; 8.100000; 20000.000000
+ep; Electrostatic; Ion 3 (Melco); Xenon; 2897.000000; 23.299999; 10000.000000
+ep; Electrostatic; Ion 4 (FEEP); Cs; 6870.000000; 5.000000; 20000.000000
+ep; Electrostatic; Ion 5 (SPT-70); Xenon; 1600.000000; 40.000000; 1000.000000
+ep; Electrostatic; Ion 6 (SPT-100); Xenon; 1600.000000; 83.000000; 7000.000000
+ep; Electrothermal; Arcjet 1 (1.8kW); N2H4; 600.000000; 260.000000; 1500.000000
+ep; Electrothermal; Arcjet 2 (1.8kW); N2H4; 550.000000; 220.000000; 1050.000000
+ep; Electrothermal; Resistojet 1; N2H4; 299.000000; 500.000000; 370.000000
+ep; Electrothermal; Resistojet 2; CO2; 138.000000; 300.000000; 3000.000000

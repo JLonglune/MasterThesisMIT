@@ -1,0 +1,31 @@
+ 
+set datafile separator whitespace
+set term png size 960,480
+ 
+set o 'PySara.STD2.84d8e60a-8888-4008-98ee-97f86e72405d_altitudeVsTime.png'
+set size 1,1 
+set origin 0,0
+set grid
+ 
+set key font ",14"
+set title 'Altitude vs Time of STD2 (84d8e60a-8888-4008-98ee-97f86e72405d)' noenhanced font ",14"
+set xlabel 'Time [s]' font ",14"
+set ylabel 'Altitude [Km]' font ",14"
+set tics font ",14"
+set style line 1 lc rgb 'blue' lw 3 pt 1 ps 3
+ 
+plot 'PySara.STD2.84d8e60a-8888-4008-98ee-97f86e72405d_Trajectory.txt' using 1:2 w l ls 1 title 'STD2' noenhanced, \
+ 
+set o 'PySara.STD2.84d8e60a-8888-4008-98ee-97f86e72405d_altitudeVsDownrange.png'
+set size 1,1 
+set origin 0,0
+set grid
+ 
+set key font ",14"
+set title 'Altitude vs Downrange of STD2 (84d8e60a-8888-4008-98ee-97f86e72405d)' noenhanced font ",14"
+set xlabel 'Downrange [Km]' font ",14"
+set ylabel 'Altitude [Km]' font ",14"
+set tics font ",14"
+ 
+plot 'PySara.STD2.84d8e60a-8888-4008-98ee-97f86e72405d_Trajectory.txt' using 6:2 w l ls 1 title 'STD2' noenhanced
+ 

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragments>
+	<fragment>
+		<name>RWheel1</name>
+		<objects>
+			<uniqueID>30601a1f-e611-4a72-8c68-0ba8610c2e29</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:44:07.709</epoch>
+		<mass unit="kg">9.3042717026917920e-01</mass>
+		<velocity unit="m/s">2.9699183645826917e+01</velocity>
+		<latitude unit="deg">6.5623858496167067e+00</latitude>
+		<longitude unit="deg">-1.2014678692436313e+02</longitude>
+		<crossSectionArea unit="m2">3.7011103051941351e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>RWheel2</name>
+		<objects>
+			<uniqueID>37335509-7a26-4e33-8286-b58da32b5558</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:44:07.709</epoch>
+		<mass unit="kg">9.3042717026917920e-01</mass>
+		<velocity unit="m/s">2.9699183645826917e+01</velocity>
+		<latitude unit="deg">6.5623858496167067e+00</latitude>
+		<longitude unit="deg">-1.2014678692436313e+02</longitude>
+		<crossSectionArea unit="m2">3.7011103051941351e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>RWheel3</name>
+		<objects>
+			<uniqueID>3643ab44-f912-4884-babe-b7c09067369a</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:44:07.709</epoch>
+		<mass unit="kg">9.3042717026917920e-01</mass>
+		<velocity unit="m/s">2.9699183645826917e+01</velocity>
+		<latitude unit="deg">6.5623858496167067e+00</latitude>
+		<longitude unit="deg">-1.2014678692436313e+02</longitude>
+		<crossSectionArea unit="m2">3.7011103051941351e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>CentCone</name>
+		<objects>
+			<uniqueID>a6bfcbfa-60aa-4e7a-bf6f-ed921bdc8db6</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:43:05.198</epoch>
+		<mass unit="kg">2.2947187929865937e+01</mass>
+		<velocity unit="m/s">3.1367295480883005e+01</velocity>
+		<latitude unit="deg">6.1701943186570727e+00</latitude>
+		<longitude unit="deg">-1.2278952363888115e+02</longitude>
+		<crossSectionArea unit="m2">8.1820267388623291e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank1</name>
+		<objects>
+			<uniqueID>9e7d164a-03c6-443b-a8dd-67661cfc0a2d</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:40:46.698</epoch>
+		<mass unit="kg">1.1199999999999999e+01</mass>
+		<velocity unit="m/s">5.1848859451404401e+01</velocity>
+		<latitude unit="deg">6.6433902211326874e+00</latitude>
+		<longitude unit="deg">-1.1956477497701579e+02</longitude>
+		<crossSectionArea unit="m2">1.4746321756685127e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank2</name>
+		<objects>
+			<uniqueID>3d841389-2064-480e-87b2-bedfd6570cd3</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:40:46.698</epoch>
+		<mass unit="kg">1.1199999999999999e+01</mass>
+		<velocity unit="m/s">5.1848859451404401e+01</velocity>
+		<latitude unit="deg">6.6433902211326874e+00</latitude>
+		<longitude unit="deg">-1.1956477497701579e+02</longitude>
+		<crossSectionArea unit="m2">1.4746321756685127e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank3</name>
+		<objects>
+			<uniqueID>b44d182e-cc26-4486-970c-ebf58aa27cc0</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:40:46.698</epoch>
+		<mass unit="kg">1.1199999999999999e+01</mass>
+		<velocity unit="m/s">5.1848859451404401e+01</velocity>
+		<latitude unit="deg">6.6433902211326874e+00</latitude>
+		<longitude unit="deg">-1.1956477497701579e+02</longitude>
+		<crossSectionArea unit="m2">1.4746321756685127e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank4</name>
+		<objects>
+			<uniqueID>8d404d07-39cb-4bdd-be3e-90c64523e7f8</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:40:46.698</epoch>
+		<mass unit="kg">1.1199999999999999e+01</mass>
+		<velocity unit="m/s">5.1848859451404401e+01</velocity>
+		<latitude unit="deg">6.6433902211326874e+00</latitude>
+		<longitude unit="deg">-1.1956477497701579e+02</longitude>
+		<crossSectionArea unit="m2">1.4746321756685127e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>IASI</name>
+		<objects>
+			<uniqueID>429cbd40-c6c5-43fd-b460-fc5cd243292f</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:51:35.288</epoch>
+		<mass unit="kg">5.3171908018746317e+00</mass>
+		<velocity unit="m/s">1.5165691489730024e+01</velocity>
+		<latitude unit="deg">6.4411754545476478e+00</latitude>
+		<longitude unit="deg">-1.2101563647714727e+02</longitude>
+		<crossSectionArea unit="m2">7.9124800000000006e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Cylind1</name>
+		<objects>
+			<uniqueID>ae599747-ecf5-4232-aa46-521c56c71902</uniqueID>
+		</objects>
+		<epoch>2016-11-04T06:56:17.959</epoch>
+		<mass unit="kg">2.8682514624435380e+00</mass>
+		<velocity unit="m/s">1.1465344625704518e+01</velocity>
+		<latitude unit="deg">6.3645169833631181e+00</latitude>
+		<longitude unit="deg">-1.2155741865013157e+02</longitude>
+		<crossSectionArea unit="m2">7.5551376328017528e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+</fragments>

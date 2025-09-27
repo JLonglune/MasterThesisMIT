@@ -1,0 +1,18 @@
+[window]
+win_title = "bogoss"
+win_width = 1200
+win_height = 600
+
+[colors]
+bg_color = "#000000"
+text_color = "#eeeeee"
+axis_color = "#eeeeee"
+plot_color = "#3578ff"
+
+[integration]
+default_f = "sin"
+default_x0 = 0.0
+default_x1 = 1.0
+default_N = 10
+default_minN = 1
+default_maxN = 100

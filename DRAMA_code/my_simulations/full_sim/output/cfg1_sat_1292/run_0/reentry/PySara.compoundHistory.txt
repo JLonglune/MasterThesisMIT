@@ -1,0 +1,36 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                         ---- DRAMA ( SESAM r2.1.5 ) ----
+#                                      ESA 2018
+#
+#                         final state of history of the compound  objects
+#-------------------------------------------------------------------------------
+# Filename      : compoundHistory.txt
+# RunID         : PySara
+# Content       : This file lists the history of the compound  objects and provides information on the component of each compound until they separate,
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  CompoundID             Time[s]      Altitude[km]
+#     ObjectName                                    mass[kg]        ObjectFinalState
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   2586696812663314322    2150.550     99.520         
+x x x  IFring                                       12.675                    
+x x x PLM                                           612.650                   
+x x x SVM                                           636.255                   
+x x x SolarP                                        0.000           demised   
+   17068167775374247114   2353.100     90.144         
+x x x _IFring                                       8.457                     
+x x x PLM                                           612.650                   
+x x x SVM                                           580.055         demised   
+   11649713141016156716   2391.650     87.848         
+x x x _IFring                                       0.000           demised   
+x x x PLM                                           612.650                   

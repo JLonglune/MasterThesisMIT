@@ -1,0 +1,33 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ## 
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                      ---- DRAMA ( SESAM 2.1.5 ) ----
+#                                      ESA 2018
+#
+#                              aerothermal history file
+#-------------------------------------------------------------------------------
+# Filename      : sara._IFring.4620504796488738850_cd3cda18-3bf2-43c8-87a7-f735aa44d164_AeroThermalHistory.txt
+# RunID         : sara
+# ObjectID      : cd3cda18-3bf2-43c8-87a7-f735aa44d164
+# ObjectName    : _IFring
+# ReferenceArea : 0.0814332 [m^2]
+# Content       : This file contains the aerothermal data of the object,
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+# Note          : The convective heat and the integrated heat values in this file take into account the visibility factor
+#
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Time [s]  Altitude [km]   Temp [K]   Mass [kg]   Thick [mm]  Convective Heat [W]  Radiative Heat [W]  Oxidation Heat [W]  Integrated Heat [J] VisibilityFactor [-]
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1383.100          97.926    850.000       0.046       0.067            10074.582               0.000               0.000          1402298.398   0.98789 
+  1383.200          97.919    850.000       0.044       0.064            10083.362               0.000               0.000          1403306.734   0.98789 
+  1383.650          97.888    850.000       0.037       0.053            10124.216               0.000               0.000          1407862.631   0.98789 
+  1384.650          97.820    850.000       0.019       0.028            10218.418               0.000               0.000          1418081.049   0.98789 
+  1385.650          97.752    850.000       0.002       0.003            10320.416               0.000               0.000          1428401.465   0.98789 
+  1386.650          97.684    850.000       0.000       0.000            10423.286               0.000               0.000          1438824.750   0.98789 

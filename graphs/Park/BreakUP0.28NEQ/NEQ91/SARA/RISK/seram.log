@@ -1,0 +1,28 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#																			   
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#                        execution log file -seram.log-  						   
+#                   run date+time: lun., avr. 07 2025 09:32:12						   
+
+ - start reading path to data directory
+ - open input files
+ - input files read
+ - read geotiffs for population density & country assignment
+ - geotiffs read
+ - calculate casualty and fatality
+ - 2D-risks calculated for controlled re-entry
+ - Gnuplot Drivers for controlled re-entry written into output directory
+ - Gnuplot Drivers for latitude-band-limited re-entry written into output directory
+ - RiskResults.xml written into output directory
+ - RiskResults.dat written into output directory
+-------------------------
+SERAM execution time [ms]: 3492

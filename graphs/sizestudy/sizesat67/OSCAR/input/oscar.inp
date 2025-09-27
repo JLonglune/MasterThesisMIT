@@ -1,0 +1,187 @@
+#=====<ESA/DRAMA>==================================================================================
+#                                                                                                  
+#      _/_/_/_/    _/_/_/    _/_/                _/_/_/    _/_/_/      _/_/    _/      _/    _/_/    
+#     _/        _/        _/    _/              _/    _/  _/    _/  _/    _/  _/_/  _/_/  _/    _/   
+#    _/_/_/      _/_/    _/_/_/_/  _/_/_/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/  _/  _/  _/_/_/_/    
+#   _/              _/  _/    _/              _/    _/  _/    _/  _/    _/  _/      _/  _/    _/     
+#  _/_/_/_/  _/_/_/    _/    _/              _/_/_/    _/    _/  _/    _/  _/      _/  _/    _/      
+#
+#==================================================================================================
+#
+# OSCAR (Orbital Spacecraft Active Removal) Input File
+# [v2.4.4, 07/2024]
+#
+#==================================================================================================
+#
+# 1) Basic Settings
+#
+#--------------------------------------------------------------------------------------------------
+#
+# Begin Date: Date the simulation starts at in YYYY MM DD hh mm ss format
+#
+  2016 11 01 12 00 00 ! [YYYY MM DD hh mm ss]
+#
+# Run-ID (max. 25 characters, no spaces) 
+#
+  oscar 
+#
+# Comment lines (two lines, 80 characters each)
+#
+  DRAMA
+  OSCAR - Orbital Spacecraft Active Removal
+#
+# Target Orbit
+#
+  6900.0    semi-major axis / km
+  0.000100    eccentricity / -
+  98.6    inclination / deg
+  60.00    right ascension of ascending node (RAAN) / deg
+  80.00    argument of perigee / deg
+  180.00    mean anomaly / deg
+#
+# Spacecraft Parameters
+#
+  10.000    cross-sectional area / m**2
+  2500.0    spacecraft dry mass / kg (can be either dry or total mass - specified by following switch)
+  1         dry mass switch (1 = dry mass, 0 = wet mass, i.e. dry mass + propellant mass)
+  2.2       drag coefficient
+  1.3       reflectivity coefficient
+#
+#==================================================================================================
+#
+# 2) Disposal/Removal Options
+#
+#--------------------------------------------------------------------------------------------------
+#
+# Disposal Option
+#
+# 1 = Direct De-Orbit
+# 2 = Delayed De-Orbit
+# 3 = Re-Orbit
+# 4 = none
+#
+  4 
+#
+# Disposal System
+#
+# 1 = Chemical Propulsion System
+# 2 = Electric Propulsion System
+# 3 = Electrodynamic Tether System
+# 4 = Drag Augmentation Device
+#
+  1 
+#
+# Scenario Options:
+#
+#
+  1    Number of Hohmann Maneuvers (only chemical propulsion system)
+   60.0    Perigee altitude for direct de-orbit / km 
+  2000.0    Re-Orbit Altitude / km (only "Re-Orbit" disposal option) 
+  25.0    Lifetime Limit / years (only "Delayed De-Orbit" disposal option) 
+  5.0    Lifetime Margin / percent (mandated conservative margin of error for OSCAR: 5.0% according to ISO-27852:2011) 
+#
+# Chemical Propulsion
+#
+  Cold Gas
+  60.0    Specific Impulse / s
+#
+# Electric Propulsion
+#
+  Ion 1 (T5)
+  3248.0          Specific Impulse / s
+     18.000000    Total Thrust / mN
+  100000.0         Thruster Lifetime / h
+#
+# Electrodynamic Tether
+#
+  5.0    Tether Length / km
+  275.0    Tether Resistance / Ohm
+  35.26    Tether Relative Angle / deg
+#
+# Drag Augmentation
+#
+  10.0    Cross-Sectional Area / m**2
+  2.2    Drag Coefficient
+  1.3    Solar Reflectivity Coefficient
+#
+#==================================================================================================
+#
+# 3) Orbit Prediction
+#
+#--------------------------------------------------------------------------------------------------
+#
+# Propagation span / years
+#
+  100.0
+#
+# Solar & Geomagnetic Activity Scenario
+#
+# 1 = Latest Prediction
+# 2 = Best Case / Worst Case (+ Confidence Interval)
+# 3 = Constant Solar Flux    (+ Value OR automatically computed)
+# 4 = ECSS Sample Solar Cycle
+# 5 = Monte Carlo Sampling   (+ No. of Sampled Cycles)
+#
+  1
+#
+#--------------------------------------------------------------
+#
+# Latest Prediction Scenario options
+#  
+  1    Solar & Geomagnetic Activity data to be used (1 = ESA, 2 = User-defined)
+#
+#--------------------------------------------------------------
+#
+# Best Case / Worst Case scenario options
+#
+  50.0 
+#
+#--------------------------------------------------------------
+#
+# Constant Solar Flux scenario options
+#
+  2    Mode Switch (1 = auto, i.e. value computed from ballistic parameter an object's orbit; 2 = user-defined)
+  200.0    User-defined constant solar flux level / (10**(-22) W/m**2/Hz)
+  15.0     User-defined constant geomagnetic activity Ap
+#
+#--------------------------------------------------------------
+#
+# Monte Carlo Sampling scenario options
+#
+  5    No. of sampled cycles [1:6]
+#
+#==================================================================================================
+#
+# 4) Plot Options
+#
+#-------------------------------------------------------------------------------------------------
+#
+# Generate Plots
+#
+# 1 = yes
+# 0 = no
+#
+  1    Altitude vs. Time
+  1    Eccentricity vs. Time
+  0    Inclination vs. RAAN (geosynchronous region)
+  1    Inclination vs. Time
+  0    Altitude vs. Declination (geosynchronous region)
+  1    Solar and geomagnetic activity vs. Time
+  0     -- not implemented --
+#
+# Linestyle of Data in Plot
+#
+   1
+#
+# Plot Critical Altitude
+#
+# 1 = yes
+# 0 = no
+#
+  0
+#
+# Linestyle of Critical Altitude
+#
+  3
+#
+#==================================================================================================

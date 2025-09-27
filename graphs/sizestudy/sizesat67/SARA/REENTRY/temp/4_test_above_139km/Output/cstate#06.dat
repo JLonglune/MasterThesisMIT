@@ -1,0 +1,41 @@
+ -------------- TEST CASE#           1  BEGIN ------------
+
+  UTC (UNIVERSAL TIME, CONV.)   --->   UTC (UNIVERSAL TIME, CONV.)                                  
+ DATE (YY)YY/MM/DD HH:MM:SS.SS  --->  DATE (YY)YY/MM/DD HH:MM:SS.SS                                 
+ MEAN SYSTEM OF 1950.0  --->  EARTHFIXED TR.OF DATE                                                 
+   MEAN STATE LIU/ALFORD    --->  {WITHOUT PREDICTION STEP}  --->   OSCULATING ORBIT STATE          
+   A,EC,INC,GOM,OM,M/V/E (KM,DEG)    --->  H,LAT,LON,V,FPA,AZI (KM,KM/S,DEG)                        
+ FAST VARIABLE MEAN ANOMALY M  --->  FAST VARIABLE TRUE ANOMALY V                                   
+
+ INPUT DATA (STATE & EPOCH):
+
+ JI     =       231831
+ TI(1)  =    20161103.000000000     
+ TI(2)  =    50423.000000000000     
+ ELI(1) =    6512.3891999999996     
+ ELI(2) =    1.2000000000000000E-004
+ ELI(3) =    10.027390000000000     
+ ELI(4) =    353.22010999999998     
+ ELI(5) =    19.409810000000000     
+ ELI(6) =    275.53478000000001     
+ PARI(1)=    1.2075000000000000E-003
+ PARI(2)=    0.0000000000000000     
+ PARI(3)=    9.4223999999999992E-003
+
+ PREDICTION ARC:
+ JP     =            1
+ TP     =    0.0000000000000000     
+
+ OUTPUT DATA (STATE & EPOCH):
+
+ IERR   =            0
+ JO     =       235102
+ TO(1)  =    20161103.000000000     
+ TO(2)  =    50423.000000081956     
+ ELO(1) =    124.98001628746988     
+ ELO(2) =   -9.0131977632320019     
+ ELO(3) =    170.40995426046456     
+ ELO(4) =    7.3683310458646378     
+ ELO(5) =   -1.1475088335303330E-002
+ ELO(6) =    4.9138006714046130     
+

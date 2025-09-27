@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragments>
+	<fragment>
+		<name>body2</name>
+		<uniqueID>d063182e-ddcb-4699-928f-c504235a68a1</uniqueID>
+		<quantity>1</quantity>
+		<objects>
+			<uniqueID>07d5df7e-d6e5-4ca6-922b-8ec16d689827</uniqueID>
+		</objects>
+		<epoch>2016-11-06T00:28:12.668</epoch>
+		<mass>8.86963</mass>
+		<velocity>15.825047</velocity>
+		<latitude>9.578185</latitude>
+		<longitude>30.531574</longitude>
+		<shape>connected</shape>
+		<crossSectionArea>1.21</crossSectionArea>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>new Fragment</name>
+		<uniqueID>dd72309f-ef9e-41fb-9381-207ebe49ad5f</uniqueID>
+		<quantity>9</quantity>
+		<objects>
+		</objects>
+		<epoch>2025-02-27T11:44:19.162</epoch>
+		<mass>0.0</mass>
+		<velocity>0.0</velocity>
+		<latitude>0.0</latitude>
+		<longitude>0.0</longitude>
+		<shape>sphere</shape>
+		<radius>1.0</radius>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>new Fragment</name>
+		<uniqueID>16fa0c7d-31cb-49f1-8556-a70b31d77fb9</uniqueID>
+		<quantity>2</quantity>
+		<objects>
+		</objects>
+		<epoch>2025-02-27T11:44:25.145</epoch>
+		<mass>0.0</mass>
+		<velocity>0.0</velocity>
+		<latitude>0.0</latitude>
+		<longitude>0.0</longitude>
+		<shape>sphere</shape>
+		<radius>1.0</radius>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>new Fragment</name>
+		<uniqueID>b94fdc47-3191-4a29-bacd-cce6a0da0c06</uniqueID>
+		<quantity>6</quantity>
+		<objects>
+		</objects>
+		<epoch>2025-02-27T11:44:25.661</epoch>
+		<mass>0.0</mass>
+		<velocity>0.0</velocity>
+		<latitude>0.0</latitude>
+		<longitude>0.0</longitude>
+		<shape>sphere</shape>
+		<radius>1.0</radius>
+		<isFloating>false</isFloating>
+	</fragment>
+</fragments>

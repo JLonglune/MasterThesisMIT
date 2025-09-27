@@ -1,0 +1,52 @@
+import pyvista as pv
+
+# Définir quelques ordres de rotation possibles
+orders = [
+    ("x", "y", "z"),
+    ("z", "y", "x"),
+    ("y", "z", "x")
+]
+
+# Définir quelques combinaisons de signes pour (roll, pitch, yaw)
+signs = [
+    (1, 1, 1),
+    (-1, 1, -1),
+    (1, -1, 1)
+]
+
+# Exemple d'angles extraits du XML (à adapter selon ton objet)
+# Ces valeurs doivent être celles extraites pour l'objet en question (par ex. SolarP)
+yaw = 30    # angle en degrés
+pitch = 20   # angle en degrés
+roll = 10   # angle en degrés
+x, y, z = 0, 0, 0  # centre de rotation de l'objet
+
+# On suppose que 'shape' est déjà créé (par exemple un Cube, Sphere, etc.)
+# Pour l'exemple, on crée un cube
+shape = pv.Cube(center=(x, y, z), x_length=3, y_length=5, z_length=2)
+
+# Créer un plotter avec une grille (nombre de lignes = len(orders), colonnes = len(signs))
+plotter = pv.Plotter(shape=(len(orders), len(signs)), window_size=(800,600))
+
+for i, order in enumerate(orders):
+    for j, sign in enumerate(signs):
+        # Créer une copie de la géométrie de base
+        test_shape = shape.copy()
+        # Calculer les angles modifiés
+        angle_x = roll * sign[0]
+        angle_y = pitch * sign[1]
+        angle_z = yaw * sign[2]
+        # Appliquer les rotations dans l'ordre défini
+        for axis in order:
+            if axis == "x":
+                test_shape.rotate_x(angle_x, point=(x, y, z), inplace=True)
+            elif axis == "y":
+                test_shape.rotate_y(angle_y, point=(x, y, z), inplace=True)
+            elif axis == "z":
+                test_shape.rotate_z(angle_z, point=(x, y, z), inplace=True)
+        # Positionner chaque version dans le subplot correspondant
+        plotter.subplot(i, j)
+        plotter.add_text(f"Order: {order}\nSign: {sign}", font_size=8)
+        plotter.add_mesh(test_shape, color="lightgrey", show_edges=True)
+
+plotter.show()

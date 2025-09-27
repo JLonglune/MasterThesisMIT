@@ -1,0 +1,22 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#                                                                               
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#   ---- DRAMA ( MONTECARLO  ( r1.0.7, built Nov 27 2024 11:42:00) ) ----
+#                                      ESA 2022                                 
+#                                                                               
+#                        execution log file -mc.log-                            
+#                   run date+time: Thu Feb 27 11:47:14 2025
+
+info: Starting MonteCarlo
+info: Processing arguments done. Starting real work.
+info: Found input/monteCarlo.xml
+info: Found input/sara.xml
+info: removing (old) input/monteCarlo.dtd
+info: parsing monteCarlo.xml DONE
+fatal: ERROR: The total number of variations is only 1, which means that there is no MC variation defined. Please check your input.

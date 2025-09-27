@@ -1,0 +1,27 @@
+======================================================================
+           P O S T  (PROGRAM FOR ORBIT STATE TRANSFORMATIONS)         
+               VERSION (V1), RELEASE 1.1                              
+======================================================================
+                                                                      
+ ------------------< RUN IDENTIFICATION TEXT >------------------------
+  UARS french cartesian state                                         
+  RUN ID.:  STATE CONVERSION FOR "UARS" ORBIT ANALYSIS                
+ --<from J2000 SV>------ Input data -----France-----------------------
+   232132 = JI     : STATE INPUT IDENTIFICATION NUMBER(S)   
+  20161101.000000 = TI(1)  : EPOCH (1ST FORMAT)                              
+  120000.000000 = TI(2)  : EPOCH (2ND FORMAT)                              
+  6628.300000 = ELI(1) : X (KM)    
+  0.001000 = ELI(2) : Y (KM)    
+  10.000000 = ELI(3) : Z (KM)    
+  7.300000 = ELI(4) : VX (KM/S) 
+  2.000000 = ELI(5) : VY (KM/S) 
+  0.000000 = ELI(6) : VZ (KM/S) 
+  0.0012075D0   = PARI(1): XNDT20 = NDOT/2, REV'S/DAY**2              
+  0.000D0       = PARI(2): XNDD60 = NDOTDOT/6, REV'S/DAY**3           
+  0.942240D-2    = PARI(3): BSTAR  = SGP4 DRAG COEFF., EARTH RADII    
+ --<SGP-4>---------- PRECITION ARC (IF ANY) --------------------------
+   1                = JP     : PREDICTION THEORY IDENTIFIER           
+  +0.0000000000D0   = TP     : PREDICTION TIME, DAYS                  
+ --<to TLE>---------- TARGET ORBIT STATE --------------- 
+   235102 = JO     : STATE OUTPUT IDENTIFICATION NUMBER(S)   
+======================================================================

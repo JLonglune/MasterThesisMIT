@@ -1,0 +1,89 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#                                                                               
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#               Detailed results log file -sara.RiskResults.dat-
+#                           runID: sara            
+#                   run date+time: 2025-06-17T19-57-08.133                          
+#_______________________________________________________________________________
+# 
+#
+# Run configuration
+# -----------------
+#
+# Run identifier
+sara
+# Re-entry type
+uncontrolled
+# Uncontrolled re-entry methodology
+circular
+# World population growth scenario
+MEDIUM-VARIANT
+# Casualty risk threshold /J 
+15.0
+# Orbit inclination / deg
+90.0
+#
+#
+# Total risk of the run configuration
+# -----------------------------------
+#
+# Total casualty area / m^2
+0.9110526303609155
+# Total impact mass / kg
+19.2485505482015
+# Total casualty probability under the 1D projection /-
+1.0867038098716364E-5
+# Total fatality probability under the 1D projection /-
+1.0867038098716364E-5
+# Total number of unique fragments /-
+1
+# Total number of fragments /-
+1
+# Total number of unique floating fragments /-
+1
+# Total number of floating fragments /-
+1
+#
+# Individual fragment risk of the run configuration
+# -------------------------------------------------
+#
+# Unique ID
+40fcaa52-cb5f-43dd-a085-849770dd754d
+# Connected-to IDs
+40fcaa52-cb5f-43dd-a085-849770dd754d
+# Name
+new_object
+# Quantity
+1
+# Mass / kg 
+19.2485505482015
+# Velocity / m/s 
+74.70298108044443
+# Latitude / deg 
+18.55765482747679
+# Longitude / deg 
+87.675152560916
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2026-11-01T12:08:49.231
+# Average geometric cross section / m^2 
+0.12566370614359174
+# Average casualty area / m^2 
+0.9110526303609155
+# Impact energy / J 
+53708.60869616469
+# Casualty probability 1D / - 
+1.0867038089121991E-5
+# Fatality probability 1D / - 
+1.0867038089121991E-5
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++

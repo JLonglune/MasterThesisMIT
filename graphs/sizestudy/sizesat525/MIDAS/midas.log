@@ -1,0 +1,37 @@
+
+              _/      _/  _/_/_/  _/_/_/      _/_/      _/_/_/
+             _/_/  _/_/    _/    _/    _/  _/    _/  _/
+            _/  _/  _/    _/    _/    _/  _/_/_/_/    _/_/
+           _/      _/    _/    _/    _/  _/    _/        _/
+          _/      _/  _/_/_/  _/_/_/    _/    _/  _/_/_/
+
+        Debris Risk Assessment and Mitigation Analysis Tool Suite
+     MASTER(-based) Impact Flux and Damage Assessment Software 3.1.1
+ ___________________________ DRAMA - MIDAS ___________________________
+
+Reading from path configuration file "midas.cfg".
+Reading from main input file "input/midas.inp".
+Reading from surface definition file "input/midas.sdf".
+Reading user defined BLE parameters from file "input/midas.ble".
+Reading plot parameters from file "input/midas.plt".
+Calling MASTER v8.0.3 API..
+Scanning datafiles for most recent reference population...
+Fetching population files: Human-made Population...
+Most recent reference epoch: 2016/11
+Target orbit scenario
+ Currently using: FOCUS v2.6.1
+Reading from propagation parameter file /Applications/DRAMA-3.1.1/TOOLS/MIDAS/in
+put/focus/focus.prm
+File operation successful (78) OPENED /Applications/DRAMA-3.1.1/TOOLS/MIDAS/inpu
+t/focus/focus.prm
+- static orbit
+[[
+REMARK in subroutine 'uinput':
+  Target orbit epochs overrule simulation time for target orbit scenario.
+]]
+ _____________YYYY_MM_DD_HH__SMA_______ECC_____INC_____RAAN____AoP
+#  1 /   1 :  2016 11 01 00    7158.00 0.00100  98.50    0.00    0.00
+Uncertainty indicators available!
+Now processing 'Human-made Population' ...
+Reading probability table header from /Applications/MASTER-8.0.3/data/cond_20161
+101_00_leo.prb.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<riskAnalysis>
+  <runID>sara</runID>
+  <configurations>
+    <reentryType>uncontrolled</reentryType>
+    <uncontrolledMethod>circular</uncontrolledMethod>
+    <growthScenario>MEDIUM-VARIANT</growthScenario>
+    <casualtyThreshold>15.0</casualtyThreshold>
+    <inclinationAngle>90.0</inclinationAngle>
+  </configurations>
+  <risk>
+    <totalRiskResults>
+      <totalCasualty1D>1.0867038098716364E-5</totalCasualty1D>
+      <totalFatality1D>1.0867038098716364E-5</totalFatality1D>
+      <totalCasualtyArea>0.9110526303609155</totalCasualtyArea>
+      <totalImpactMass>42.45107830365965</totalImpactMass>
+    </totalRiskResults>
+    <fragments>
+      <totalNumberFloatingFragments>0</totalNumberFloatingFragments>
+      <fragment>
+        <uniqueID>40fcaa52-cb5f-43dd-a085-849770dd754d</uniqueID>
+        <objects>
+          <uniqueID>40fcaa52-cb5f-43dd-a085-849770dd754d</uniqueID>
+        </objects>
+        <name>new_object</name>
+        <quantity>1</quantity>
+        <mass>42.45107830365965</mass>
+        <velocity>112.91837530419072</velocity>
+        <latitude>7.520337521007557</latitude>
+        <longitude>85.45631352970906</longitude>
+        <epoch>2026-11-01T12:04:40.845</epoch>
+        <crossSectionArea>0.12566370614359174</crossSectionArea>
+        <isFloating>false</isFloating>
+        <casualtyArea>0.9110526303609155</casualtyArea>
+        <impactEnergy>270637.4994788761</impactEnergy>
+        <casualty1D>1.0867038089121991E-5</casualty1D>
+        <fatality1D>1.0867038089121991E-5</fatality1D>
+      </fragment>
+    </fragments>
+  </risk>
+</riskAnalysis>
